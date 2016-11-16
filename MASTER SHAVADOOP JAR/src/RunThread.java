@@ -13,7 +13,6 @@ public class RunThread extends Thread {
 
 	public RunThread(String host, Job job) {
 
-
 		job.setStatus(JobStatus.STARTED);
 		this.targetHost = host;
 		this.exeFile = job.getJobDescription();
@@ -43,7 +42,9 @@ public class RunThread extends Thread {
 						" and returned: " + output(process.getInputStream()));
 			}
 			else {
+				// The pause prevent from looping on a non responding slave.
 				Thread.sleep(3000);
+				// Resume job status.
 				job.setStatus(JobStatus.NOT_STARTED);	
 				logger.Log("Process finished with status: Failed" +
 						" and returned: " + output(process.getInputStream()));				

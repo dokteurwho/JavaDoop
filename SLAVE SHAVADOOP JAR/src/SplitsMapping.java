@@ -46,7 +46,8 @@ public class SplitsMapping {
 			while ((line = bufferedReader.readLine()) != null) {
 
 				// Consider whitespace and - as separator.
-				line = line.replace("-", " ");
+				line = line.replace("-", " "); // est-ce = est + ce 
+				line = line.replace("'", " "); // d'aller = d + aller
 				String[] parts = line.split(" ");
 				
 				for(String word : parts) {
