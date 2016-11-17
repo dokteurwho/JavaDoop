@@ -101,15 +101,17 @@ java -Dfile.encoding=UTF-8 -jar Slave.jar -r SM_4.txt -o RM_4
 The way the master attributes a Job to a Slave is basically round robin.
 
 1. Find a Job to perform.
-2. Find a free Slave (not processing a Job.)
+2. Find a free Slave (not processing a Job.) Slaves have a score depending on how many time they achieved a job. Best free Slaves will be selected first. This can conduct to non-use of some slaves.
 
-Slaves have a score depending on how many time they achieved a job. Best slaves will be selected first.
-
-
-
-
-
-
+```java
+	public float getScore() {
+		int t = failureNb + successNb;
+		if(t == 0)
+			return 1;
+		else
+			return successNb / (failureNb + successNb);
+	}
+```
 
 ### SDOUT
 
@@ -164,18 +166,18 @@ Time,Class,Free text.
 
 * Master creates a slave:
 ```
-2016-11-17 18:23:16.004,Master,Starting Slave.jar -m /cal/homes/rpicon/git/SANDBOX/SPLIT_128.txt -o /cal/homes/rpicon/git/SANDBOX/UM_128
+2016-11-17 18:23:16.004,Master,Starting Slave.jar -m /cal/homes/user/git/SANDBOX/SPLIT_128.txt -o /cal/homes/user/git/SANDBOX/UM_128
 ```
 
 * A thread is created:
 ```
-2016-11-17 18:23:16.004,Thread_262351018,Creating slave [Slave.jar -m /cal/homes/rpicon/git/SANDBOX/SPLIT_128.txt -o /cal/homes/rpicon/git/SANDBOX/UM_128] on [rpicon@c130-26,/cal/homes/rpicon/git/SANDBOX/SLAVE2]
+2016-11-17 18:23:16.004,Thread_262351018,Creating slave [Slave.jar -m /cal/homes/user/git/SANDBOX/SPLIT_128.txt -o /cal/homes/user/git/SANDBOX/UM_128] on [user@c130-26,/cal/homes/user/git/SANDBOX/SLAVE2]
 ```
 
 * A thread terminated successfully:
 ```
-2016-11-17 18:23:16.048,Thread_1228679063,Process finished with status: Success and returned: [c133-11/137.194.34.75] Slave counting key from Sx file /cal/homes/rpicon/git/SANDBOX/SPLIT_109.txt...Generating /cal/homes/rpicon/git/SANDBOX/UM_109
-... job finished. Output UMx file /cal/homes/rpicon/git/SANDBOX/UM_109
+2016-11-17 18:23:16.048,Thread_1228679063,Process finished with status: Success and returned: [c133-11/137.194.34.75] Slave counting key from Sx file /cal/homes/user/git/SANDBOX/SPLIT_109.txt...Generating /cal/homes/user/git/SANDBOX/UM_109
+... job finished. Output UMx file /cal/homes/user/git/SANDBOX/UM_109
 ```
 
 * A thread failed:
