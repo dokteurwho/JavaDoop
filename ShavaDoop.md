@@ -77,7 +77,17 @@ If you want to remove some words from the reducing use this file as a black-list
 Go here http://snowball.tartarus.org/algorithms/french/stemmer.html and  http://snowball.tartarus.org/algorithms/french/stop.txt to find some example you can improve.
 
 ### Number of reducers
-At the last step the master will shuffle (word, count) couples to slaves. Number of reducer defines the cardinality of the shuffle. For this reason it is r 
+At the last step the master will shuffle (word, count) couples to slaves. Number of reducer defines the cardinality of the shuffle. For this reason it is recommended to have the same size of magnitude than the number of slaves but it is not mandatory.
+The shuffling process (ie how the words are spread) is base on word hash.
+
+### Number of lines
+Defines how many line will contain the input file when it will be split. The smallest the more SPLIT files will be generated.
+Can be set to 1 for fun if you want to have as many SPLIT than the orginal file contains lines.
+
+### SDOUT
+
+#### Start / Finish
+
 
 ## Slave
 
