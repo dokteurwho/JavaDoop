@@ -1,6 +1,6 @@
 #ShavaDoop
 
-##Introduction
+##1. Introduction
 
 __ShavaDoop__ is a versatile framework to powerfully count words in a file with many distributed computers in a slower manner than with only one computer.
 
@@ -14,9 +14,9 @@ Master will orchestrate many Slave instances to map then reduce every word of th
 
 ![Alt text](https://github.com/dokteurwho/JavaDoop/blob/master/ShavaDoop.png)
 
-## Master
+## 2. Master
 
-There is one master instance in the architecture. Master will split initial file beyond slaves and then shuffle the mapped results beyond these slaves.
+There is one __Master__ instance in the architecture. Master will split initial file beyond slaves and then shuffle the mapped results beyond these slaves.
 
 ```
 Usage: 
@@ -92,6 +92,8 @@ If you want to remove some words from the reducing use this file as a black-list
 
 Go here http://snowball.tartarus.org/algorithms/french/stemmer.html and  http://snowball.tartarus.org/algorithms/french/stop.txt to find some example you can improve.
 
+Comment '|' are accepted.
+
 ### Number of reducers
 At the last step the master will shuffle (word, count) couples to slaves. Number of reducer defines the cardinality of the shuffle. For this reason it is recommended to have the same size of magnitude than the number of slaves but it is not mandatory.
 The shuffling process (ie how the words are spread) is base on word hash.
@@ -111,22 +113,49 @@ java -Dfile.encoding=UTF-8 -jar Slave.jar -r SM_4.txt -o RM_4
 ```
 
 * A Slave is a computer that can perform a job. Bascically it is machine defined in _Slave List_ file.
+```
+user@c130-35,/cal/homes/user/git/SANDBOX/SLAVE1
+```
 
 #### Management
 
-The way the master attributes a Job to a Slave is basically round robin.
+The way the Master attributes a Job to a Slave is basically round robin.
 
 1. Find a Job to perform.
 2. Find a free Slave (not processing a Job.) Slaves have a score depending on how many time they achieved a job. Best free Slaves will be selected first. This can conduct to non-use of some slaves.
 
 ```java
-	public float getScore() {
-		int t = failureNb + successNb;
-		if(t == 0)
-			return 1;
-		else
-			return successNb / (failureNb + successNb);
+// Going through each slave, find the most efficient one.
+for(SlaveExecutor slave : slaveList) {
+	// A TERMINATED slave can take a new job.
+	if(slave.getJobState() == State.TERMINATED) 
+	{
+		// If needed, update candidate.
+		float current = slave.getScore();
+		if(current >= best) {
+			best = current;
+			bestSlave = slave;
+		}
 	}
+}
+
+// No slave available, take a breath.
+if(bestSlave == null) {
+	logger.Log("No slave available");
+	Thread.sleep(100);
+	return 1;
+}
+```
+where:
+```java
+// Update score.
+public float getScore() {
+	int t = failureNb + successNb;
+	if(t == 0)
+		return 1;
+	else
+		return successNb / (failureNb + successNb);
+}
 ```
 
 ### SDOUT
@@ -202,7 +231,7 @@ Time,Class,Free text.
 ```
 
 
-## Slave
+## 3. Slave
 
 Slave.jar works in two modes, "mapping" or "reducing". The mode is defined by the argument passed to the executable.
 
@@ -285,7 +314,7 @@ vers 1
 <...>
 une 2
 ```
-* the output will be:
+* the output will be the following:
 ```
 bonne 1
 elle 4
@@ -296,7 +325,7 @@ venais 1
 ```
 ### 3. STDOUT
 
-Output is very simple. Here are some examples:
+Slave's output is very simple. Here are some examples:
 * Mapping
 ```
 [c133-11/137.194.34.75] Slave counting key from Sx file /cal/homes/user/git/SANDBOX/SPLIT_3.txt...Generating /cal/homes/user/git/SANDBOX/UM_3
