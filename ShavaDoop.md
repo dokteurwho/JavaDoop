@@ -31,7 +31,7 @@ Options:
 -nblines -n integer  		number of line per splitted file, 1000 by default
 ```
 
-### Input File
+### 1. Input File
 A text file that will be processed to count in a distributed configuration the number of words. It is recommended to put a large file but a very small file like this one will work too:
 
 ```
@@ -40,12 +40,12 @@ Car Car River
 Deer Car Beer
 ```
 
-### Working Directory
+### 2. Working Directory
 The place where all intermediate and final files will be stored.
 This can be use for fail-over in a future version.
 The assumption is a distributed FS like HDFS.
 
-### Slave list
+### 3. Slave list
 This file will map where are the slaves on the network. A line defines a slave. The same line can be repeated many time if you want use many time the same slave.
 You can use local slaves (on the same machine than the master) or remote slaves. In this case use login@machine, (with comma) before the path of the slave. Look this example: 
 ```
@@ -68,7 +68,7 @@ user@c130-25,/cal/homes/user/git/SANDBOX/SLAVE3
 
 * _/cal/homes/user/git/SANDBOX/SLAVE3_ means the slave is on the same machine than the master.
 
-### Generated file
+### 4. Generated file
 The output file will be:  __inputfile.txt.count.txt__. It will look like this example, where most frequent word is first.
 
 ```
@@ -89,22 +89,22 @@ fois	286
 <...>
 ```
 
-### Stop words file
+### 5. Stop words file
 If you want to remove some words from the reducing use this file as a black-list. These word will be removed. This allow ShavaDoop to be localisation independant.
 
 Go here http://snowball.tartarus.org/algorithms/french/stemmer.html and  http://snowball.tartarus.org/algorithms/french/stop.txt to find some example you can improve.
 
 Comment '|' are accepted.
 
-### Number of reducers
+### 6. Number of reducers
 At the last step the master will shuffle (word, count) couples to slaves. Number of reducer defines the cardinality of the shuffle. For this reason it is recommended to have the same size of magnitude than the number of slaves but it is not mandatory.
 The shuffling process (ie how the words are spread) is base on word hash.
 
-### Number of lines
+### 7.Number of lines
 Defines how many line will contain the input file when it will be split. The smallest the more SPLIT files will be generated.
 Can be set to 1 for fun if you want to have as many SPLIT than the orginal file contains lines.
 
-### Master implementation
+### 8. Master implementation
 
 #### Job and Slaves
 Master manages essentially two classes: Slave and Job.
@@ -160,7 +160,7 @@ public float getScore() {
 }
 ```
 
-### SDOUT
+### 9. SDOUT
 
 ### Start
 
