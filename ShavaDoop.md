@@ -84,6 +84,33 @@ The shuffling process (ie how the words are spread) is base on word hash.
 Defines how many line will contain the input file when it will be split. The smallest the more SPLIT files will be generated.
 Can be set to 1 for fun if you want to have as many SPLIT than the orginal file contains lines.
 
+### Master implementation
+
+#### Job and Slaves
+Master manages essentially two classes: Slave and Job.
+
+* A Job is an action to perform for example: 
+```
+java -Dfile.encoding=UTF-8 -jar Slave.jar -r SM_4.txt -o RM_4
+```
+
+* A Slave is a computer that can perform a job. Bascically it is machine defined in _Slave List_ file.
+
+#### Management
+
+The way the master attributes a Job to a Slave is basically round robin.
+
+1. Find a Job to perform.
+2. Find a free Slave (not processing a Job.)
+
+Slaves have a score depending on how many time they achieved a job. Best slaves will be selected first.
+
+
+
+
+
+
+
 ### SDOUT
 
 ### Start
@@ -130,35 +157,30 @@ When process is achieved, an execution summary is disaplyed, including performan
 
 #### Logs
 
+Log format is:
+```
+Time,Class,Free text.
+```
 
+* Master creates a slave:
+```
 2016-11-17 18:23:16.004,Master,Starting Slave.jar -m /cal/homes/rpicon/git/SANDBOX/SPLIT_128.txt -o /cal/homes/rpicon/git/SANDBOX/UM_128
+```
+
+* A thread is created:
+```
 2016-11-17 18:23:16.004,Thread_262351018,Creating slave [Slave.jar -m /cal/homes/rpicon/git/SANDBOX/SPLIT_128.txt -o /cal/homes/rpicon/git/SANDBOX/UM_128] on [rpicon@c130-26,/cal/homes/rpicon/git/SANDBOX/SLAVE2]
+```
+
+* A thread terminated successfully:
+```
 2016-11-17 18:23:16.048,Thread_1228679063,Process finished with status: Success and returned: [c133-11/137.194.34.75] Slave counting key from Sx file /cal/homes/rpicon/git/SANDBOX/SPLIT_109.txt...Generating /cal/homes/rpicon/git/SANDBOX/UM_109
 ... job finished. Output UMx file /cal/homes/rpicon/git/SANDBOX/UM_109
+```
 
-2016-11-17 19:31:08.687,Master,Starting Slave.jar -m /cal/homes/rpicon/git/SANDBOX/SPLIT_1.txt -o /cal/homes/rpicon/git/SANDBOX/UM_1
-2016-11-17 19:31:08.687,Thread_2093326742,Creating slave [Slave.jar -m /cal/homes/rpicon/git/SANDBOX/SPLIT_1.txt -o /cal/homes/rpicon/git/SANDBOX/UM_1] on []
-2016-11-17 19:31:08.708,Master,Starting Slave.jar -m /cal/homes/rpicon/git/SANDBOX/SPLIT_2.txt -o /cal/homes/rpicon/git/SANDBOX/UM_2
-2016-11-17 19:31:08.708,Thread_203065615,Creating slave [Slave.jar -m /cal/homes/rpicon/git/SANDBOX/SPLIT_2.txt -o /cal/homes/rpicon/git/SANDBOX/UM_2] on [/cal/homes/rpicon/git/SANDBOX/SLAVE4]
+* A thread failed:
+```
 2016-11-17 19:31:09.193,Thread_2093326742,Process finished with status: Failed and returned: Error: Unable to access jarfile /Slave.jar
-
-
-
-```
-2016-11-17 19:31:09.204,Master,Starting Slave.jar -m /cal/homes/rpicon/git/SANDBOX/SPLIT_1.txt -o /cal/homes/rpicon/git/SANDBOX/UM_1
-```
-
-
-2016-11-17 19:31:09.205,Thread_1814691888,Creating slave [Slave.jar -m /cal/homes/rpicon/git/SANDBOX/SPLIT_1.txt -o /cal/homes/rpicon/git/SANDBOX/UM_1] on [/cal/homes/rpicon/git/SANDBOX/SLAVE3]
-2016-11-17 19:31:09.210,Thread_203065615,Process finished with status: Failed and returned: Error: Unable to access jarfile /cal/homes/rpicon/git/SANDBOX/SLAVE4/Slave.jar
-```
-
-
-```
-2016-11-17 19:31:09.225,Master,Starting Slave.jar -m /cal/homes/rpicon/git/SANDBOX/SPLIT_2.txt -o /cal/homes/rpicon/git/SANDBOX/UM_2
-2016-11-17 19:31:09.226,Thread_233788733,Creating slave [Slave.jar -m /cal/homes/rpicon/git/SANDBOX/SPLIT_2.txt -o /cal/homes/rpicon/git/SANDBOX/UM_2] on [/cal/homes/rpicon/git/SANDBOX/SLAVE2]
-2016-11-17 19:31:13.331,Thread_1814691888,Process finished with status: Success and returned: [c133-11/137.194.34.75] Slave counting key from Sx file /cal/homes/rpicon/git/SANDBOX/SPLIT_1.txt...Generating /cal/homes/rpicon/git/SANDBOX/UM_1
-... job finished. Output UMx file /cal/homes/rpicon/git/SANDBOX/UM_1
 ```
 
 
