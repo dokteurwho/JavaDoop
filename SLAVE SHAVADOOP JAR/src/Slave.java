@@ -13,10 +13,19 @@ public class Slave {
 	public Slave() {
 		// TODO Auto-generated constructor stub
 	}
+	
+
+	
+	private static final String ARGS_ERROR = "Usage: "
+			+ "\r\nSlave.jar -r file or -m file -o output"
+			+ "\r\nMandatory:"
+			+ "\r\n-m <file>		input file to map, txt format."
+			+ "\r\n-r <file>		input file to reduce, txt format"
+			+ "\r\n-o <file> 		output file. Extension will be added by Slave.";
+
 
 
 	public static void main(String[] args) throws InterruptedException {
-
 		Mode mode;
 		String inFileName = "";
 		String outFileName = "";
@@ -33,19 +42,19 @@ public class Slave {
 				inFileName = args[1];
 				break;
 			default:
-				throw new IllegalArgumentException("Expected -m filename -o output file name");
+				throw new IllegalArgumentException(ARGS_ERROR);
 			}
 			switch(args[2]) {
 			case "-o":
 				outFileName = args[3];
 				break;
 			default:
-				throw new IllegalArgumentException("Expected -m filename -o output file name");
+				throw new IllegalArgumentException(ARGS_ERROR);
 			}
 		}
 		else
 		{
-			throw new IllegalArgumentException("Expected exe -m filename -o output_file_name");
+			throw new IllegalArgumentException(ARGS_ERROR);
 		}
 
 		// TODO Auto-generated method stub
