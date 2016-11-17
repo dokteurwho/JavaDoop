@@ -1,4 +1,11 @@
-
+/**
+ * Job is a very simple class allowing a thread to "take" a job, defined by a command line by a jobDescription.
+ * The jobDescription can be then processed by ProcessBuilder.
+ * Ironically this is not a multithreadable class.
+ * 
+ * @author rpicon
+ *
+ */
 
 
 public class Job {
@@ -7,6 +14,7 @@ public class Job {
 	private String jobDescription;
 	/**
 	 * Create a new job in NOT_STARTED status.
+	 * 
 	 * @param jobDescription	A command to launch in process builder. For example: Slave.jar -r in_file -o out_file
 	 */
 	public Job(String jobDescription) {
@@ -33,7 +41,10 @@ public class Job {
 	}
 
 	/**
-	 * Set by Slave.
+	 * Set by Slave. 
+	 * STARTED means the job is being processed. 
+	 * FINISHED means the job has been successfully achieved ie the ProcessBuilder returned success.
+	 * NOT_STARTED if the ProcessBuilder returned an error.
 	 * 
 	 * @param status JobStatus NOT_STARTED, STARTED, FINISHED
 	 */
