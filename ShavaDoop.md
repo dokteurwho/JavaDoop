@@ -86,8 +86,67 @@ Can be set to 1 for fun if you want to have as many SPLIT than the orginal file 
 
 ### SDOUT
 
-#### Start / Finish
+### Start
 
+When starting Master a short summary is displayed. 
+```
+2016-11-17 19:31:08.666,Master,------ Configuration ------ 
+2016-11-17 19:31:08.666,Master,Input file: /cal/homes/user/git/SANDBOX/Beer.txt
+2016-11-17 19:31:08.666,Master,Working directory: /cal/homes/user/git/SANDBOX/
+2016-11-17 19:31:08.666,Master,Slave list : /cal/homes/user/git/SANDBOX/slavelist.txt
+2016-11-17 19:31:08.666,Master,Number of reducer  (optional, default 5): 100
+2016-11-17 19:31:08.666,Master,Number of lines per files  (optional, default 1000): 1
+2016-11-17 19:31:08.666,Master,Stop words list (optional, default none): /cal/homes/user/git/SANDBOX/stop.txt
+2016-11-17 19:31:08.667,Master,------ Creating slaves list ------ 
+2016-11-17 19:31:08.671,Master,------ Creating stop words list ------ 
+2016-11-17 19:31:08.679,Master,------ Splitting files ------ 
+2016-11-17 19:31:08.687,Master,------ Starting map process ------
+```
+
+#### Finish
+
+When process is achieved, an execution summary is disaplyed, including performances.
+
+```
+2016-11-17 18:23:49.304,Master,------ Remote reducing done------ 
+2016-11-17 18:23:49.304,Master,------ Starting final merge ------ 
+2016-11-17 18:23:51.640,Master,Saving results in /cal/homes/user/git/SANDBOX/sante_publique.txt.count.txt
+2016-11-17 18:23:51.640,Master,TOP words:
+2016-11-17 18:23:51.642,Master,#0   article	46850
+2016-11-17 18:23:51.642,Master,#1   santé	20201
+2016-11-17 18:23:51.642,Master,#2   agence	8796
+2016-11-17 18:23:51.642,Master,#3   être	8760
+<...>
+2016-11-17 18:23:51.644,Master,#47   si	3446
+2016-11-17 18:23:51.644,Master,#48   modalités	3410
+2016-11-17 18:23:51.644,Master,#49   arrêté	3402
+2016-11-17 18:23:51.656,Master,------ Final merge done ------
+2016-11-17 18:23:51.656,Master,------ Performances ------
+2016-11-17 18:23:51.656,Master,Split time: 811 ms
+2016-11-17 18:23:51.656,Master,Map time: 39785 ms
+2016-11-17 18:23:51.657,Master,Reduce time: 4811 ms
+2016-11-17 18:23:51.657,Master,Merge time: 2352 ms
+```
+
+#### Logs
+
+2016-11-17 19:31:08.687,Master,Starting Slave.jar -m /cal/homes/rpicon/git/SANDBOX/SPLIT_1.txt -o /cal/homes/rpicon/git/SANDBOX/UM_1
+2016-11-17 19:31:08.687,Thread_2093326742,Creating slave [Slave.jar -m /cal/homes/rpicon/git/SANDBOX/SPLIT_1.txt -o /cal/homes/rpicon/git/SANDBOX/UM_1] on []
+2016-11-17 19:31:08.708,Master,Starting Slave.jar -m /cal/homes/rpicon/git/SANDBOX/SPLIT_2.txt -o /cal/homes/rpicon/git/SANDBOX/UM_2
+2016-11-17 19:31:08.708,Thread_203065615,Creating slave [Slave.jar -m /cal/homes/rpicon/git/SANDBOX/SPLIT_2.txt -o /cal/homes/rpicon/git/SANDBOX/UM_2] on [/cal/homes/rpicon/git/SANDBOX/SLAVE4]
+2016-11-17 19:31:09.193,Thread_2093326742,Process finished with status: Failed and returned: Error: Unable to access jarfile /Slave.jar
+
+2016-11-17 19:31:09.204,Master,Starting Slave.jar -m /cal/homes/rpicon/git/SANDBOX/SPLIT_1.txt -o /cal/homes/rpicon/git/SANDBOX/UM_1
+2016-11-17 19:31:09.205,Thread_1814691888,Creating slave [Slave.jar -m /cal/homes/rpicon/git/SANDBOX/SPLIT_1.txt -o /cal/homes/rpicon/git/SANDBOX/UM_1] on [/cal/homes/rpicon/git/SANDBOX/SLAVE3]
+2016-11-17 19:31:09.210,Thread_203065615,Process finished with status: Failed and returned: Error: Unable to access jarfile /cal/homes/rpicon/git/SANDBOX/SLAVE4/Slave.jar
+
+2016-11-17 19:31:09.225,Master,Starting Slave.jar -m /cal/homes/rpicon/git/SANDBOX/SPLIT_2.txt -o /cal/homes/rpicon/git/SANDBOX/UM_2
+2016-11-17 19:31:09.226,Thread_233788733,Creating slave [Slave.jar -m /cal/homes/rpicon/git/SANDBOX/SPLIT_2.txt -o /cal/homes/rpicon/git/SANDBOX/UM_2] on [/cal/homes/rpicon/git/SANDBOX/SLAVE2]
+2016-11-17 19:31:13.331,Thread_1814691888,Process finished with status: Success and returned: [c133-11/137.194.34.75] Slave counting key from Sx file /cal/homes/rpicon/git/SANDBOX/SPLIT_1.txt...Generating /cal/homes/rpicon/git/SANDBOX/UM_1
+... job finished. Output UMx file /cal/homes/rpicon/git/SANDBOX/UM_1
+
+2016-11-17 19:31:13.335,Thread_233788733,Process finished with status: Success and returned: [c133-11/137.194.34.75] Slave counting key from Sx file /cal/homes/rpicon/git/SANDBOX/SPLIT_2.txt...Generating /cal/homes/rpicon/git/SANDBOX/UM_2
+... job finished. Output UMx file /cal/homes/rpicon/git/SANDBOX/UM_2
 
 ## Slave
 
