@@ -1,0 +1,1438 @@
+2016-11-17 20:54:28.195,Master,------ Configuration ------ 
+2016-11-17 20:54:28.195,Master,Input file: /cal/homes/ruser/git/SANDBOX/sante_publique.txt
+2016-11-17 20:54:28.195,Master,Working directory: /cal/homes/ruser/git/SANDBOX/
+2016-11-17 20:54:28.196,Master,Slave list : /cal/homes/ruser/git/SANDBOX/slavelist.txt
+2016-11-17 20:54:28.196,Master,Number of reducer  (optional, default 5): 1001
+2016-11-17 20:54:28.196,Master,Number of lines per files  (optional, default 1000): 500
+2016-11-17 20:54:28.196,Master,Stop words list (optional, default none): /cal/homes/ruser/git/SANDBOX/stop.txt
+2016-11-17 20:54:28.196,Master,------ Creating slaves list ------ 
+2016-11-17 20:54:28.199,Master,------ Creating stop words list ------ 
+2016-11-17 20:54:28.208,Master,------ Splitting files ------ 
+2016-11-17 20:54:28.957,Master,------ Starting map process ------ 
+2016-11-17 20:54:28.958,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_1.txt -o /cal/homes/ruser/git/SANDBOX/UM_1
+2016-11-17 20:54:28.958,Thread_748160097,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_1.txt -o /cal/homes/ruser/git/SANDBOX/UM_1] on []
+2016-11-17 20:54:28.978,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_2.txt -o /cal/homes/ruser/git/SANDBOX/UM_2
+2016-11-17 20:54:28.980,Thread_963806922,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_2.txt -o /cal/homes/ruser/git/SANDBOX/UM_2] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:54:29.009,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_3.txt -o /cal/homes/ruser/git/SANDBOX/UM_3
+2016-11-17 20:54:29.009,Thread_1611375446,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_3.txt -o /cal/homes/ruser/git/SANDBOX/UM_3] on [ruser@c130-26,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:54:29.050,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_4.txt -o /cal/homes/ruser/git/SANDBOX/UM_4
+2016-11-17 20:54:29.050,Thread_1902900148,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_4.txt -o /cal/homes/ruser/git/SANDBOX/UM_4] on [ruser@c130-27,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:54:29.101,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_5.txt -o /cal/homes/ruser/git/SANDBOX/UM_5
+2016-11-17 20:54:29.101,Thread_1969996643,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_5.txt -o /cal/homes/ruser/git/SANDBOX/UM_5] on [ruser@c130-28,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:54:29.162,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_6.txt -o /cal/homes/ruser/git/SANDBOX/UM_6
+2016-11-17 20:54:29.162,Thread_431004754,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_6.txt -o /cal/homes/ruser/git/SANDBOX/UM_6] on [ruser@c130-18,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:54:29.233,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_7.txt -o /cal/homes/ruser/git/SANDBOX/UM_7
+2016-11-17 20:54:29.233,Thread_605018743,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_7.txt -o /cal/homes/ruser/git/SANDBOX/UM_7] on [ruser@c130-19,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:54:29.313,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_8.txt -o /cal/homes/ruser/git/SANDBOX/UM_8
+2016-11-17 20:54:29.314,Thread_629447772,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_8.txt -o /cal/homes/ruser/git/SANDBOX/UM_8] on [ruser@c130-20,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:54:29.404,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_9.txt -o /cal/homes/ruser/git/SANDBOX/UM_9
+2016-11-17 20:54:29.405,Thread_1431772935,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_9.txt -o /cal/homes/ruser/git/SANDBOX/UM_9] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:54:29.464,Thread_748160097,Process finished with status: Failed and returned: Error: Unable to access jarfile /Slave.jar
+
+2016-11-17 20:54:29.506,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_10.txt -o /cal/homes/ruser/git/SANDBOX/UM_10
+2016-11-17 20:54:29.506,Thread_1121360515,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_10.txt -o /cal/homes/ruser/git/SANDBOX/UM_10] on [ruser@c130-35,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:54:29.516,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_1.txt -o /cal/homes/ruser/git/SANDBOX/UM_1
+2016-11-17 20:54:29.517,Thread_297420114,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_1.txt -o /cal/homes/ruser/git/SANDBOX/UM_1] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:54:29.628,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_11.txt -o /cal/homes/ruser/git/SANDBOX/UM_11
+2016-11-17 20:54:29.628,Thread_1122677234,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_11.txt -o /cal/homes/ruser/git/SANDBOX/UM_11] on [ruser@c130-26,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:54:29.749,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_12.txt -o /cal/homes/ruser/git/SANDBOX/UM_12
+2016-11-17 20:54:29.750,Thread_1034127505,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_12.txt -o /cal/homes/ruser/git/SANDBOX/UM_12] on [ruser@c130-27,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:54:29.881,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_13.txt -o /cal/homes/ruser/git/SANDBOX/UM_13
+2016-11-17 20:54:29.881,Thread_1275428038,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_13.txt -o /cal/homes/ruser/git/SANDBOX/UM_13] on [ruser@c130-28,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:54:30.023,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_14.txt -o /cal/homes/ruser/git/SANDBOX/UM_14
+2016-11-17 20:54:30.023,Thread_1906033665,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_14.txt -o /cal/homes/ruser/git/SANDBOX/UM_14] on [ruser@c130-18,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:54:30.175,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_15.txt -o /cal/homes/ruser/git/SANDBOX/UM_15
+2016-11-17 20:54:30.175,Thread_1938717193,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_15.txt -o /cal/homes/ruser/git/SANDBOX/UM_15] on [ruser@c130-19,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:54:30.337,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_16.txt -o /cal/homes/ruser/git/SANDBOX/UM_16
+2016-11-17 20:54:30.337,Thread_712340282,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_16.txt -o /cal/homes/ruser/git/SANDBOX/UM_16] on [ruser@c130-20,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:54:30.509,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_17.txt -o /cal/homes/ruser/git/SANDBOX/UM_17
+2016-11-17 20:54:30.510,Thread_673637848,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_17.txt -o /cal/homes/ruser/git/SANDBOX/UM_17] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+
+
+
+2016-11-17 20:55:16.488,Thread_270232918,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_200.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_200
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_200
+
+2016-11-17 20:55:16.691,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_221.txt -o /cal/homes/ruser/git/SANDBOX/UM_221
+2016-11-17 20:55:16.691,Thread_1987233686,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_221.txt -o /cal/homes/ruser/git/SANDBOX/UM_221] on [ruser@c130-28,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:55:16.723,Thread_681168102,Process finished with status: Success and returned: [c133-07/137.194.34.71] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_201.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_201
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_201
+
+2016-11-17 20:55:16.913,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_222.txt -o /cal/homes/ruser/git/SANDBOX/UM_222
+2016-11-17 20:55:16.914,Thread_1245607833,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_222.txt -o /cal/homes/ruser/git/SANDBOX/UM_222] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:55:16.917,Thread_1053896183,Process finished with status: Success and returned: [c130-33/137.194.35.33] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_202.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_202
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_202
+
+2016-11-17 20:55:17.126,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_223.txt -o /cal/homes/ruser/git/SANDBOX/UM_223
+2016-11-17 20:55:17.126,Thread_529617564,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_223.txt -o /cal/homes/ruser/git/SANDBOX/UM_223] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:55:17.147,Thread_1813218283,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_203.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_203
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_203
+
+2016-11-17 20:55:17.349,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_224.txt -o /cal/homes/ruser/git/SANDBOX/UM_224
+2016-11-17 20:55:17.349,Thread_1997872302,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_224.txt -o /cal/homes/ruser/git/SANDBOX/UM_224] on [ruser@c133-08,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:17.408,Thread_787202333,Process finished with status: Success and returned: [c130-35/137.194.35.35] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_204.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_204
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_204
+
+2016-11-17 20:55:17.571,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_225.txt -o /cal/homes/ruser/git/SANDBOX/UM_225
+2016-11-17 20:55:17.572,Thread_1283284357,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_225.txt -o /cal/homes/ruser/git/SANDBOX/UM_225] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:55:17.632,Thread_1511743026,Process finished with status: Success and returned: [c130-26/137.194.35.26] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_205.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_205
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_205
+
+2016-11-17 20:55:17.794,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_226.txt -o /cal/homes/ruser/git/SANDBOX/UM_226
+2016-11-17 20:55:17.794,Thread_1886575798,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_226.txt -o /cal/homes/ruser/git/SANDBOX/UM_226] on [ruser@c130-35,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:55:17.821,Thread_1891712023,Process finished with status: Success and returned: [c133-06/137.194.34.70] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_206.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_206
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_206
+
+2016-11-17 20:55:18.017,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_227.txt -o /cal/homes/ruser/git/SANDBOX/UM_227
+2016-11-17 20:55:18.017,Thread_1360106173,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_227.txt -o /cal/homes/ruser/git/SANDBOX/UM_227] on [ruser@c130-26,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:55:18.098,Thread_664118822,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_207.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_207
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_207
+
+2016-11-17 20:55:18.239,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_228.txt -o /cal/homes/ruser/git/SANDBOX/UM_228
+2016-11-17 20:55:18.240,Thread_1366415098,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_228.txt -o /cal/homes/ruser/git/SANDBOX/UM_228] on [ruser@c133-07,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:18.287,Thread_1954478838,Process finished with status: Success and returned: [c133-09/137.194.34.73] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_208.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_208
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_208
+
+2016-11-17 20:55:18.299,Thread_1886575798,Process finished with status: Failed and returned: ssh_exchange_identification: Connection closed by remote host
+
+2016-11-17 20:55:18.432,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_226.txt -o /cal/homes/ruser/git/SANDBOX/UM_226
+2016-11-17 20:55:18.432,Thread_1452445709,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_226.txt -o /cal/homes/ruser/git/SANDBOX/UM_226] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:18.616,Thread_693950181,Process finished with status: Success and returned: [c130-27/137.194.35.27] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_209.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_209
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_209
+
+2016-11-17 20:55:18.644,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_229.txt -o /cal/homes/ruser/git/SANDBOX/UM_229
+2016-11-17 20:55:18.645,Thread_2061354276,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_229.txt -o /cal/homes/ruser/git/SANDBOX/UM_229] on [ruser@c133-09,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:18.781,Thread_1911882932,Process finished with status: Success and returned: [c130-18/137.194.35.18] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_210.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_210
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_210
+
+2016-11-17 20:55:18.857,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_230.txt -o /cal/homes/ruser/git/SANDBOX/UM_230
+2016-11-17 20:55:18.857,Thread_95558370,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_230.txt -o /cal/homes/ruser/git/SANDBOX/UM_230] on [ruser@c130-27,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:55:18.970,Thread_137334824,Process finished with status: Success and returned: [c130-20/137.194.35.20] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_211.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_211
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_211
+
+2016-11-17 20:55:19.070,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_231.txt -o /cal/homes/ruser/git/SANDBOX/UM_231
+2016-11-17 20:55:19.070,Thread_1349406338,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_231.txt -o /cal/homes/ruser/git/SANDBOX/UM_231] on [ruser@c130-18,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:55:19.264,Thread_2113104630,Process finished with status: Success and returned: [c130-33/137.194.35.33] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_212.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_212
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_212
+
+2016-11-17 20:55:19.283,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_232.txt -o /cal/homes/ruser/git/SANDBOX/UM_232
+2016-11-17 20:55:19.283,Thread_14795687,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_232.txt -o /cal/homes/ruser/git/SANDBOX/UM_232] on [ruser@c130-20,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:55:19.476,Thread_311994347,Process finished with status: Success and returned: [c130-35/137.194.35.35] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_213.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_213
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_213
+
+2016-11-17 20:55:19.496,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_233.txt -o /cal/homes/ruser/git/SANDBOX/UM_233
+2016-11-17 20:55:19.496,Thread_2023012486,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_233.txt -o /cal/homes/ruser/git/SANDBOX/UM_233] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:55:19.678,Thread_681936641,Process finished with status: Success and returned: [c130-26/137.194.35.26] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_214.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_214
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_214
+
+2016-11-17 20:55:19.708,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_234.txt -o /cal/homes/ruser/git/SANDBOX/UM_234
+2016-11-17 20:55:19.708,Thread_1706064225,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_234.txt -o /cal/homes/ruser/git/SANDBOX/UM_234] on [ruser@c130-35,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:55:19.788,Thread_14795687,Process finished with status: Failed and returned: ssh_exchange_identification: Connection closed by remote host
+
+2016-11-17 20:55:19.858,Thread_882444870,Process finished with status: Success and returned: [c130-27/137.194.35.27] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_215.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_215
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_215
+
+2016-11-17 20:55:19.890,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_232.txt -o /cal/homes/ruser/git/SANDBOX/UM_232
+2016-11-17 20:55:19.891,Thread_1259896667,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_232.txt -o /cal/homes/ruser/git/SANDBOX/UM_232] on [ruser@c130-26,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:55:20.050,Thread_768979268,Process finished with status: Success and returned: [c130-18/137.194.35.18] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_216.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_216
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_216
+
+2016-11-17 20:55:20.093,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_235.txt -o /cal/homes/ruser/git/SANDBOX/UM_235
+2016-11-17 20:55:20.093,Thread_1859994143,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_235.txt -o /cal/homes/ruser/git/SANDBOX/UM_235] on [ruser@c130-27,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:55:20.213,Thread_1706064225,Process finished with status: Failed and returned: ssh_exchange_identification: Connection closed by remote host
+
+2016-11-17 20:55:20.269,Thread_87340428,Process finished with status: Success and returned: [c130-20/137.194.35.20] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_217.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_217
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_217
+
+2016-11-17 20:55:20.275,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_234.txt -o /cal/homes/ruser/git/SANDBOX/UM_234
+2016-11-17 20:55:20.275,Thread_1137015402,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_234.txt -o /cal/homes/ruser/git/SANDBOX/UM_234] on [ruser@c130-18,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:55:20.468,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_236.txt -o /cal/homes/ruser/git/SANDBOX/UM_236
+2016-11-17 20:55:20.468,Thread_136994421,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_236.txt -o /cal/homes/ruser/git/SANDBOX/UM_236] on [ruser@c130-20,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:55:20.539,Thread_1534586370,Process finished with status: Success and returned: [c130-26/137.194.35.26] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_218.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_218
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_218
+
+2016-11-17 20:55:20.670,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_237.txt -o /cal/homes/ruser/git/SANDBOX/UM_237
+2016-11-17 20:55:20.671,Thread_271213708,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_237.txt -o /cal/homes/ruser/git/SANDBOX/UM_237] on [ruser@c133-06,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:20.780,Thread_1137015402,Process finished with status: Failed and returned: ssh_exchange_identification: Connection closed by remote host
+
+2016-11-17 20:55:20.785,Thread_1770494018,Process finished with status: Success and returned: [c130-10/137.194.35.10] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_219.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_219
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_219
+
+2016-11-17 20:55:20.832,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_234.txt -o /cal/homes/ruser/git/SANDBOX/UM_234
+2016-11-17 20:55:20.833,Thread_2060447721,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_234.txt -o /cal/homes/ruser/git/SANDBOX/UM_234] on [ruser@c130-26,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:20.959,Thread_103996533,Process finished with status: Success and returned: [c130-28/137.194.35.28] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_220.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_220
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_220
+
+2016-11-17 20:55:20.973,Thread_136994421,Process finished with status: Failed and returned: ssh_exchange_identification: Connection closed by remote host
+
+2016-11-17 20:55:21.005,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_236.txt -o /cal/homes/ruser/git/SANDBOX/UM_236
+2016-11-17 20:55:21.005,Thread_1728654984,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_236.txt -o /cal/homes/ruser/git/SANDBOX/UM_236] on [ruser@c130-10,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:21.187,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_238.txt -o /cal/homes/ruser/git/SANDBOX/UM_238
+2016-11-17 20:55:21.187,Thread_124597925,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_238.txt -o /cal/homes/ruser/git/SANDBOX/UM_238] on [ruser@c130-28,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:55:21.194,Thread_1987233686,Process finished with status: Success and returned: [c130-28/137.194.35.28] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_221.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_221
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_221
+
+2016-11-17 20:55:21.337,Thread_2060447721,Process finished with status: Failed and returned: ssh_exchange_identification: Connection closed by remote host
+
+2016-11-17 20:55:21.369,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_239.txt -o /cal/homes/ruser/git/SANDBOX/UM_239
+2016-11-17 20:55:21.370,Thread_991553580,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_239.txt -o /cal/homes/ruser/git/SANDBOX/UM_239] on [ruser@c130-28,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:55:21.371,Thread_1245607833,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_222.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_222
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_222
+
+2016-11-17 20:55:21.491,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_234.txt -o /cal/homes/ruser/git/SANDBOX/UM_234
+2016-11-17 20:55:21.491,Thread_1586213112,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_234.txt -o /cal/homes/ruser/git/SANDBOX/UM_234] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:55:21.510,Thread_1728654984,Process finished with status: Failed and returned: ssh_exchange_identification: Connection closed by remote host
+
+2016-11-17 20:55:21.633,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_236.txt -o /cal/homes/ruser/git/SANDBOX/UM_236
+2016-11-17 20:55:21.633,Thread_593067180,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_236.txt -o /cal/homes/ruser/git/SANDBOX/UM_236] on [ruser@c133-05,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:21.692,Thread_124597925,Process finished with status: Failed and returned: ssh_exchange_identification: Connection closed by remote host
+
+2016-11-17 20:55:21.712,Thread_529617564,Process finished with status: Success and returned: [c130-33/137.194.35.33] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_223.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_223
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_223
+
+2016-11-17 20:55:21.795,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_238.txt -o /cal/homes/ruser/git/SANDBOX/UM_238
+2016-11-17 20:55:21.795,Thread_166440805,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_238.txt -o /cal/homes/ruser/git/SANDBOX/UM_238] on [ruser@c133-04,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:21.873,Thread_1997872302,Process finished with status: Success and returned: [c133-08/137.194.34.72] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_224.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_224
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_224
+
+2016-11-17 20:55:21.967,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_240.txt -o /cal/homes/ruser/git/SANDBOX/UM_240
+2016-11-17 20:55:21.967,Thread_744034460,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_240.txt -o /cal/homes/ruser/git/SANDBOX/UM_240] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:55:22.060,Thread_1283284357,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_225.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_225
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_225
+
+2016-11-17 20:55:22.139,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_241.txt -o /cal/homes/ruser/git/SANDBOX/UM_241
+2016-11-17 20:55:22.139,Thread_366564931,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_241.txt -o /cal/homes/ruser/git/SANDBOX/UM_241] on [ruser@c133-08,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:22.311,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_242.txt -o /cal/homes/ruser/git/SANDBOX/UM_242
+2016-11-17 20:55:22.311,Thread_503783239,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_242.txt -o /cal/homes/ruser/git/SANDBOX/UM_242] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:55:22.485,Thread_1360106173,Process finished with status: Success and returned: [c130-26/137.194.35.26] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_227.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_227
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_227
+
+2016-11-17 20:55:22.493,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_243.txt -o /cal/homes/ruser/git/SANDBOX/UM_243
+2016-11-17 20:55:22.493,Thread_2065149307,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_243.txt -o /cal/homes/ruser/git/SANDBOX/UM_243] on [ruser@c133-03,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:22.675,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_244.txt -o /cal/homes/ruser/git/SANDBOX/UM_244
+2016-11-17 20:55:22.676,Thread_60500159,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_244.txt -o /cal/homes/ruser/git/SANDBOX/UM_244] on [ruser@c130-26,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:55:22.780,Thread_1366415098,Process finished with status: Success and returned: [c133-07/137.194.34.71] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_228.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_228
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_228
+
+2016-11-17 20:55:22.868,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_245.txt -o /cal/homes/ruser/git/SANDBOX/UM_245
+2016-11-17 20:55:22.868,Thread_208670712,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_245.txt -o /cal/homes/ruser/git/SANDBOX/UM_245] on [ruser@c133-02,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:22.927,Thread_1452445709,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_226.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_226
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_226
+
+2016-11-17 20:55:23.060,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_246.txt -o /cal/homes/ruser/git/SANDBOX/UM_246
+2016-11-17 20:55:23.061,Thread_1947208587,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_246.txt -o /cal/homes/ruser/git/SANDBOX/UM_246] on [ruser@c133-07,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:23.129,Thread_2061354276,Process finished with status: Success and returned: [c133-09/137.194.34.73] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_229.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_229
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_229
+
+2016-11-17 20:55:23.180,Thread_60500159,Process finished with status: Failed and returned: ssh_exchange_identification: Connection closed by remote host
+
+2016-11-17 20:55:23.222,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_244.txt -o /cal/homes/ruser/git/SANDBOX/UM_244
+2016-11-17 20:55:23.223,Thread_1261346193,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_244.txt -o /cal/homes/ruser/git/SANDBOX/UM_244] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:23.373,Thread_95558370,Process finished with status: Success and returned: [c130-27/137.194.35.27] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_230.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_230
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_230
+
+2016-11-17 20:55:23.405,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_247.txt -o /cal/homes/ruser/git/SANDBOX/UM_247
+2016-11-17 20:55:23.405,Thread_665769921,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_247.txt -o /cal/homes/ruser/git/SANDBOX/UM_247] on [ruser@c133-09,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:23.587,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_248.txt -o /cal/homes/ruser/git/SANDBOX/UM_248
+2016-11-17 20:55:23.587,Thread_1762204735,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_248.txt -o /cal/homes/ruser/git/SANDBOX/UM_248] on [ruser@c130-27,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:55:23.608,Thread_1349406338,Process finished with status: Success and returned: [c130-18/137.194.35.18] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_231.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_231
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_231
+
+2016-11-17 20:55:23.779,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_249.txt -o /cal/homes/ruser/git/SANDBOX/UM_249
+2016-11-17 20:55:23.780,Thread_208981104,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_249.txt -o /cal/homes/ruser/git/SANDBOX/UM_249] on [ruser@c133-01,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:23.971,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_250.txt -o /cal/homes/ruser/git/SANDBOX/UM_250
+2016-11-17 20:55:23.972,Thread_394872832,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_250.txt -o /cal/homes/ruser/git/SANDBOX/UM_250] on [ruser@c130-18,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:55:24.020,Thread_2023012486,Process finished with status: Success and returned: [c130-33/137.194.35.33] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_233.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_233
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_233
+
+2016-11-17 20:55:24.092,Thread_1762204735,Process finished with status: Failed and returned: ssh_exchange_identification: Connection closed by remote host
+
+2016-11-17 20:55:24.144,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_248.txt -o /cal/homes/ruser/git/SANDBOX/UM_248
+2016-11-17 20:55:24.144,Thread_1973769562,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_248.txt -o /cal/homes/ruser/git/SANDBOX/UM_248] on [ruser@c133-09,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:24.336,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_251.txt -o /cal/homes/ruser/git/SANDBOX/UM_251
+2016-11-17 20:55:24.336,Thread_1051807484,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_251.txt -o /cal/homes/ruser/git/SANDBOX/UM_251] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:55:24.375,Thread_1259896667,Process finished with status: Success and returned: [c130-26/137.194.35.26] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_232.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_232
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_232
+
+2016-11-17 20:55:24.538,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_252.txt -o /cal/homes/ruser/git/SANDBOX/UM_252
+2016-11-17 20:55:24.539,Thread_2142734953,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_252.txt -o /cal/homes/ruser/git/SANDBOX/UM_252] on [ruser@c133-10,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:24.612,Thread_1859994143,Process finished with status: Success and returned: [c130-27/137.194.35.27] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_235.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_235
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_235
+
+2016-11-17 20:55:24.741,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_253.txt -o /cal/homes/ruser/git/SANDBOX/UM_253
+2016-11-17 20:55:24.741,Thread_632801745,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_253.txt -o /cal/homes/ruser/git/SANDBOX/UM_253] on [ruser@c130-26,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:55:24.943,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_254.txt -o /cal/homes/ruser/git/SANDBOX/UM_254
+2016-11-17 20:55:24.944,Thread_1869246878,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_254.txt -o /cal/homes/ruser/git/SANDBOX/UM_254] on [ruser@c130-27,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:55:25.151,Thread_271213708,Process finished with status: Success and returned: [c133-06/137.194.34.70] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_237.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_237
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_237
+
+2016-11-17 20:55:25.156,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_255.txt -o /cal/homes/ruser/git/SANDBOX/UM_255
+2016-11-17 20:55:25.156,Thread_1773046069,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_255.txt -o /cal/homes/ruser/git/SANDBOX/UM_255] on [ruser@c133-12,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:25.246,Thread_632801745,Process finished with status: Failed and returned: ssh_exchange_identification: Connection closed by remote host
+
+2016-11-17 20:55:25.338,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_253.txt -o /cal/homes/ruser/git/SANDBOX/UM_253
+2016-11-17 20:55:25.339,Thread_412737155,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_253.txt -o /cal/homes/ruser/git/SANDBOX/UM_253] on [ruser@c133-06,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:25.448,Thread_1869246878,Process finished with status: Failed and returned: ssh_exchange_identification: Connection closed by remote host
+
+2016-11-17 20:55:25.531,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_254.txt -o /cal/homes/ruser/git/SANDBOX/UM_254
+2016-11-17 20:55:25.531,Thread_973246391,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_254.txt -o /cal/homes/ruser/git/SANDBOX/UM_254] on [ruser@c133-11,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:25.743,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_256.txt -o /cal/homes/ruser/git/SANDBOX/UM_256
+2016-11-17 20:55:25.743,Thread_1268001340,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_256.txt -o /cal/homes/ruser/git/SANDBOX/UM_256] on [ruser@c133-05,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:25.902,Thread_991553580,Process finished with status: Success and returned: [c130-28/137.194.35.28] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_239.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_239
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_239
+
+2016-11-17 20:55:25.965,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_257.txt -o /cal/homes/ruser/git/SANDBOX/UM_257
+2016-11-17 20:55:25.966,Thread_1344691783,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_257.txt -o /cal/homes/ruser/git/SANDBOX/UM_257] on [ruser@c133-08,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:25.973,Thread_1586213112,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_234.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_234
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_234
+
+2016-11-17 20:55:26.076,Thread_593067180,Process finished with status: Success and returned: [c133-05/137.194.34.69] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_236.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_236
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_236
+
+2016-11-17 20:55:26.178,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_258.txt -o /cal/homes/ruser/git/SANDBOX/UM_258
+2016-11-17 20:55:26.178,Thread_1868548013,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_258.txt -o /cal/homes/ruser/git/SANDBOX/UM_258] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:55:26.317,Thread_166440805,Process finished with status: Success and returned: [c133-04/137.194.34.68] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_238.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_238
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_238
+
+2016-11-17 20:55:26.390,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_259.txt -o /cal/homes/ruser/git/SANDBOX/UM_259
+2016-11-17 20:55:26.391,Thread_1437371453,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_259.txt -o /cal/homes/ruser/git/SANDBOX/UM_259] on [ruser@c130-28,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:55:26.474,Thread_744034460,Process finished with status: Success and returned: [c130-33/137.194.35.33] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_240.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_240
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_240
+
+2016-11-17 20:55:26.602,Thread_366564931,Process finished with status: Success and returned: [c133-08/137.194.34.72] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_241.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_241
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_241
+
+2016-11-17 20:55:26.603,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_260.txt -o /cal/homes/ruser/git/SANDBOX/UM_260
+2016-11-17 20:55:26.603,Thread_1433980130,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_260.txt -o /cal/homes/ruser/git/SANDBOX/UM_260] on [ruser@c133-05,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:26.805,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_261.txt -o /cal/homes/ruser/git/SANDBOX/UM_261
+2016-11-17 20:55:26.806,Thread_1162754992,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_261.txt -o /cal/homes/ruser/git/SANDBOX/UM_261] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:55:26.809,Thread_503783239,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_242.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_242
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_242
+
+2016-11-17 20:55:26.896,Thread_1437371453,Process finished with status: Failed and returned: ssh_exchange_identification: Connection closed by remote host
+
+2016-11-17 20:55:26.977,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_259.txt -o /cal/homes/ruser/git/SANDBOX/UM_259
+2016-11-17 20:55:26.978,Thread_1718212315,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_259.txt -o /cal/homes/ruser/git/SANDBOX/UM_259] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:55:27.015,Thread_2065149307,Process finished with status: Success and returned: [c133-03/137.194.34.67] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_243.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_243
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_243
+
+2016-11-17 20:55:27.180,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_262.txt -o /cal/homes/ruser/git/SANDBOX/UM_262
+2016-11-17 20:55:27.180,Thread_1021019426,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_262.txt -o /cal/homes/ruser/git/SANDBOX/UM_262] on [ruser@c133-08,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:27.382,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_263.txt -o /cal/homes/ruser/git/SANDBOX/UM_263
+2016-11-17 20:55:27.383,Thread_2034193582,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_263.txt -o /cal/homes/ruser/git/SANDBOX/UM_263] on [ruser@c133-04,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:27.447,Thread_208670712,Process finished with status: Success and returned: [c133-02/137.194.34.66] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_245.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_245
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_245
+
+2016-11-17 20:55:27.482,Thread_1718212315,Process finished with status: Failed and returned: ssh_exchange_identification: Connection closed by remote host
+
+2016-11-17 20:55:27.544,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_259.txt -o /cal/homes/ruser/git/SANDBOX/UM_259
+2016-11-17 20:55:27.545,Thread_926219290,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_259.txt -o /cal/homes/ruser/git/SANDBOX/UM_259] on [ruser@c133-03,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:27.578,Thread_1947208587,Process finished with status: Success and returned: [c133-07/137.194.34.71] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_246.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_246
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_246
+
+2016-11-17 20:55:27.747,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_264.txt -o /cal/homes/ruser/git/SANDBOX/UM_264
+2016-11-17 20:55:27.747,Thread_1593720318,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_264.txt -o /cal/homes/ruser/git/SANDBOX/UM_264] on [ruser@c133-02,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:27.816,Thread_1261346193,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_244.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_244
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_244
+
+2016-11-17 20:55:27.924,Thread_665769921,Process finished with status: Success and returned: [c133-09/137.194.34.73] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_247.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_247
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_247
+
+2016-11-17 20:55:27.949,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_265.txt -o /cal/homes/ruser/git/SANDBOX/UM_265
+2016-11-17 20:55:27.949,Thread_1177988267,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_265.txt -o /cal/homes/ruser/git/SANDBOX/UM_265] on [ruser@c133-07,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:28.141,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_266.txt -o /cal/homes/ruser/git/SANDBOX/UM_266
+2016-11-17 20:55:28.142,Thread_214279246,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_266.txt -o /cal/homes/ruser/git/SANDBOX/UM_266] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:28.256,Thread_208981104,Process finished with status: Success and returned: [c133-01/137.194.34.65] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_249.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_249
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_249
+
+2016-11-17 20:55:28.344,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_267.txt -o /cal/homes/ruser/git/SANDBOX/UM_267
+2016-11-17 20:55:28.344,Thread_137064008,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_267.txt -o /cal/homes/ruser/git/SANDBOX/UM_267] on [ruser@c133-09,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:28.507,Thread_394872832,Process finished with status: Success and returned: [c130-18/137.194.35.18] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_250.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_250
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_250
+
+2016-11-17 20:55:28.546,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_268.txt -o /cal/homes/ruser/git/SANDBOX/UM_268
+2016-11-17 20:55:28.547,Thread_958544880,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_268.txt -o /cal/homes/ruser/git/SANDBOX/UM_268] on [ruser@c133-01,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:28.553,Thread_1973769562,Process finished with status: Success and returned: [c133-09/137.194.34.73] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_248.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_248
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_248
+
+2016-11-17 20:55:28.739,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_269.txt -o /cal/homes/ruser/git/SANDBOX/UM_269
+2016-11-17 20:55:28.739,Thread_754103289,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_269.txt -o /cal/homes/ruser/git/SANDBOX/UM_269] on [ruser@c130-18,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:55:28.856,Thread_1051807484,Process finished with status: Success and returned: [c130-33/137.194.35.33] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_251.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_251
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_251
+
+2016-11-17 20:55:28.941,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_270.txt -o /cal/homes/ruser/git/SANDBOX/UM_270
+2016-11-17 20:55:28.941,Thread_1431398495,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_270.txt -o /cal/homes/ruser/git/SANDBOX/UM_270] on [ruser@c133-09,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:29.143,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_271.txt -o /cal/homes/ruser/git/SANDBOX/UM_271
+2016-11-17 20:55:29.144,Thread_2112602078,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_271.txt -o /cal/homes/ruser/git/SANDBOX/UM_271] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:55:29.197,Thread_2142734953,Process finished with status: Success and returned: [c133-10/137.194.34.74] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_252.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_252
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_252
+
+2016-11-17 20:55:29.824,Thread_412737155,Process finished with status: Success and returned: [c133-06/137.194.34.70] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_253.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_253
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_253
+
+2016-11-17 20:55:29.847,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_272.txt -o /cal/homes/ruser/git/SANDBOX/UM_272
+2016-11-17 20:55:29.848,Thread_1217143834,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_272.txt -o /cal/homes/ruser/git/SANDBOX/UM_272] on []
+2016-11-17 20:55:29.889,Thread_1773046069,Process finished with status: Success and returned: [c133-12/137.194.34.76] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_255.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_255
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_255
+
+2016-11-17 20:55:29.925,Thread_973246391,Process finished with status: Success and returned: [c133-11/137.194.34.75] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_254.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_254
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_254
+
+2016-11-17 20:55:30.050,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_273.txt -o /cal/homes/ruser/git/SANDBOX/UM_273
+2016-11-17 20:55:30.050,Thread_1667420337,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_273.txt -o /cal/homes/ruser/git/SANDBOX/UM_273] on [ruser@c133-06,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:30.222,Thread_1268001340,Process finished with status: Success and returned: [c133-05/137.194.34.69] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_256.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_256
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_256
+
+2016-11-17 20:55:30.242,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_274.txt -o /cal/homes/ruser/git/SANDBOX/UM_274
+2016-11-17 20:55:30.243,Thread_72827312,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_274.txt -o /cal/homes/ruser/git/SANDBOX/UM_274] on [ruser@c133-10,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:30.354,Thread_1217143834,Process finished with status: Failed and returned: Error: Unable to access jarfile /Slave.jar
+
+2016-11-17 20:55:30.404,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_272.txt -o /cal/homes/ruser/git/SANDBOX/UM_272
+2016-11-17 20:55:30.405,Thread_1152967367,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_272.txt -o /cal/homes/ruser/git/SANDBOX/UM_272] on [ruser@c133-12,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:30.460,Thread_1344691783,Process finished with status: Success and returned: [c133-08/137.194.34.72] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_257.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_257
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_257
+
+2016-11-17 20:55:30.596,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_275.txt -o /cal/homes/ruser/git/SANDBOX/UM_275
+2016-11-17 20:55:30.597,Thread_550679664,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_275.txt -o /cal/homes/ruser/git/SANDBOX/UM_275] on [ruser@c133-11,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:30.630,Thread_1868548013,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_258.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_258
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_258
+
+2016-11-17 20:55:30.788,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_276.txt -o /cal/homes/ruser/git/SANDBOX/UM_276
+2016-11-17 20:55:30.789,Thread_2100200288,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_276.txt -o /cal/homes/ruser/git/SANDBOX/UM_276] on [ruser@c133-05,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:30.980,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_277.txt -o /cal/homes/ruser/git/SANDBOX/UM_277
+2016-11-17 20:55:30.980,Thread_1162133812,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_277.txt -o /cal/homes/ruser/git/SANDBOX/UM_277] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:55:31.104,Thread_1433980130,Process finished with status: Success and returned: [c133-05/137.194.34.69] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_260.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_260
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_260
+
+2016-11-17 20:55:31.183,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_278.txt -o /cal/homes/ruser/git/SANDBOX/UM_278
+2016-11-17 20:55:31.183,Thread_336867571,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_278.txt -o /cal/homes/ruser/git/SANDBOX/UM_278] on [ruser@c133-08,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:31.261,Thread_1162754992,Process finished with status: Success and returned: [c130-33/137.194.35.33] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_261.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_261
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_261
+
+2016-11-17 20:55:31.385,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_279.txt -o /cal/homes/ruser/git/SANDBOX/UM_279
+2016-11-17 20:55:31.385,Thread_400507874,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_279.txt -o /cal/homes/ruser/git/SANDBOX/UM_279] on [ruser@c133-05,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:31.485,Thread_1162133812,Process finished with status: Failed and returned: ssh_exchange_identification: Connection closed by remote host
+
+2016-11-17 20:55:31.557,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_277.txt -o /cal/homes/ruser/git/SANDBOX/UM_277
+2016-11-17 20:55:31.558,Thread_1889532033,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_277.txt -o /cal/homes/ruser/git/SANDBOX/UM_277] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:55:31.786,Thread_1021019426,Process finished with status: Success and returned: [c133-08/137.194.34.72] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_262.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_262
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_262
+
+2016-11-17 20:55:31.886,Thread_2034193582,Process finished with status: Success and returned: [c133-04/137.194.34.68] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_263.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_263
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_263
+
+2016-11-17 20:55:31.908,Thread_926219290,Process finished with status: Success and returned: [c133-03/137.194.34.67] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_259.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_259
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_259
+
+2016-11-17 20:55:32.230,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_280.txt -o /cal/homes/ruser/git/SANDBOX/UM_280
+2016-11-17 20:55:32.230,Thread_529312209,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_280.txt -o /cal/homes/ruser/git/SANDBOX/UM_280] on []
+2016-11-17 20:55:32.389,Thread_1593720318,Process finished with status: Success and returned: [c133-02/137.194.34.66] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_264.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_264
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_264
+
+2016-11-17 20:55:32.412,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_281.txt -o /cal/homes/ruser/git/SANDBOX/UM_281
+2016-11-17 20:55:32.413,Thread_448895662,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_281.txt -o /cal/homes/ruser/git/SANDBOX/UM_281] on [ruser@c133-08,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:32.460,Thread_1177988267,Process finished with status: Success and returned: [c133-07/137.194.34.71] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_265.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_265
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_265
+
+2016-11-17 20:55:32.594,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_282.txt -o /cal/homes/ruser/git/SANDBOX/UM_282
+2016-11-17 20:55:32.595,Thread_1044841764,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_282.txt -o /cal/homes/ruser/git/SANDBOX/UM_282] on [ruser@c133-04,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:32.661,Thread_214279246,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_266.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_266
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_266
+
+2016-11-17 20:55:32.732,Thread_529312209,Process finished with status: Failed and returned: Error: Unable to access jarfile /Slave.jar
+
+2016-11-17 20:55:32.746,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_280.txt -o /cal/homes/ruser/git/SANDBOX/UM_280
+2016-11-17 20:55:32.747,Thread_1280252658,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_280.txt -o /cal/homes/ruser/git/SANDBOX/UM_280] on [ruser@c133-07,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:32.895,Thread_137064008,Process finished with status: Success and returned: [c133-09/137.194.34.73] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_267.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_267
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_267
+
+2016-11-17 20:55:32.918,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_283.txt -o /cal/homes/ruser/git/SANDBOX/UM_283
+2016-11-17 20:55:32.919,Thread_1927859348,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_283.txt -o /cal/homes/ruser/git/SANDBOX/UM_283] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:33.064,Thread_958544880,Process finished with status: Success and returned: [c133-01/137.194.34.65] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_268.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_268
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_268
+
+2016-11-17 20:55:33.090,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_284.txt -o /cal/homes/ruser/git/SANDBOX/UM_284
+2016-11-17 20:55:33.091,Thread_1045924614,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_284.txt -o /cal/homes/ruser/git/SANDBOX/UM_284] on [ruser@c133-09,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:33.263,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_285.txt -o /cal/homes/ruser/git/SANDBOX/UM_285
+2016-11-17 20:55:33.263,Thread_622888216,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_285.txt -o /cal/homes/ruser/git/SANDBOX/UM_285] on [ruser@c133-03,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:33.280,Thread_754103289,Process finished with status: Success and returned: [c130-18/137.194.35.18] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_269.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_269
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_269
+
+2016-11-17 20:55:33.441,Thread_1431398495,Process finished with status: Success and returned: [c133-09/137.194.34.73] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_270.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_270
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_270
+
+2016-11-17 20:55:33.445,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_286.txt -o /cal/homes/ruser/git/SANDBOX/UM_286
+2016-11-17 20:55:33.445,Thread_414642098,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_286.txt -o /cal/homes/ruser/git/SANDBOX/UM_286] on [ruser@c133-02,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:33.617,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_287.txt -o /cal/homes/ruser/git/SANDBOX/UM_287
+2016-11-17 20:55:33.617,Thread_949106114,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_287.txt -o /cal/homes/ruser/git/SANDBOX/UM_287] on [ruser@c130-18,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:55:33.631,Thread_2112602078,Process finished with status: Success and returned: [c130-33/137.194.35.33] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_271.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_271
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_271
+
+2016-11-17 20:55:33.799,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_288.txt -o /cal/homes/ruser/git/SANDBOX/UM_288
+2016-11-17 20:55:33.799,Thread_2037351640,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_288.txt -o /cal/homes/ruser/git/SANDBOX/UM_288] on [ruser@c133-01,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:33.981,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_289.txt -o /cal/homes/ruser/git/SANDBOX/UM_289
+2016-11-17 20:55:33.982,Thread_849227344,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_289.txt -o /cal/homes/ruser/git/SANDBOX/UM_289] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:55:34.174,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_290.txt -o /cal/homes/ruser/git/SANDBOX/UM_290
+2016-11-17 20:55:34.174,Thread_988821214,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_290.txt -o /cal/homes/ruser/git/SANDBOX/UM_290] on [ruser@c133-09,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:34.577,Thread_1667420337,Process finished with status: Success and returned: [c133-06/137.194.34.70] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_273.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_273
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_273
+
+2016-11-17 20:55:34.754,Thread_72827312,Process finished with status: Success and returned: [c133-10/137.194.34.74] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_274.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_274
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_274
+
+2016-11-17 20:55:34.866,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_291.txt -o /cal/homes/ruser/git/SANDBOX/UM_291
+2016-11-17 20:55:34.867,Thread_770088601,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_291.txt -o /cal/homes/ruser/git/SANDBOX/UM_291] on []
+2016-11-17 20:55:34.941,Thread_1152967367,Process finished with status: Success and returned: [c133-12/137.194.34.76] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_272.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_272
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_272
+
+2016-11-17 20:55:34.966,Thread_550679664,Process finished with status: Success and returned: [c133-11/137.194.34.75] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_275.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_275
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_275
+
+2016-11-17 20:55:35.059,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_292.txt -o /cal/homes/ruser/git/SANDBOX/UM_292
+2016-11-17 20:55:35.059,Thread_536452752,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_292.txt -o /cal/homes/ruser/git/SANDBOX/UM_292] on [ruser@c133-06,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:35.241,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_293.txt -o /cal/homes/ruser/git/SANDBOX/UM_293
+2016-11-17 20:55:35.241,Thread_947887472,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_293.txt -o /cal/homes/ruser/git/SANDBOX/UM_293] on [ruser@c133-10,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:35.369,Thread_770088601,Process finished with status: Failed and returned: Error: Unable to access jarfile /Slave.jar
+
+2016-11-17 20:55:35.403,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_291.txt -o /cal/homes/ruser/git/SANDBOX/UM_291
+2016-11-17 20:55:35.403,Thread_1021122941,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_291.txt -o /cal/homes/ruser/git/SANDBOX/UM_291] on [ruser@c133-12,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:35.486,Thread_2100200288,Process finished with status: Success and returned: [c133-05/137.194.34.69] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_276.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_276
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_276
+
+2016-11-17 20:55:35.595,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_294.txt -o /cal/homes/ruser/git/SANDBOX/UM_294
+2016-11-17 20:55:35.595,Thread_174772618,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_294.txt -o /cal/homes/ruser/git/SANDBOX/UM_294] on [ruser@c133-11,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:35.787,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_295.txt -o /cal/homes/ruser/git/SANDBOX/UM_295
+2016-11-17 20:55:35.787,Thread_1287868541,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_295.txt -o /cal/homes/ruser/git/SANDBOX/UM_295] on [ruser@c133-05,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:35.835,Thread_400507874,Process finished with status: Success and returned: [c133-05/137.194.34.69] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_279.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_279
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_279
+
+2016-11-17 20:55:35.899,Thread_336867571,Process finished with status: Success and returned: [c133-08/137.194.34.72] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_278.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_278
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_278
+
+2016-11-17 20:55:36.172,Thread_1889532033,Process finished with status: Success and returned: [c130-33/137.194.35.33] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_277.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_277
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_277
+
+2016-11-17 20:55:36.459,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_296.txt -o /cal/homes/ruser/git/SANDBOX/UM_296
+2016-11-17 20:55:36.460,Thread_649198496,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_296.txt -o /cal/homes/ruser/git/SANDBOX/UM_296] on []
+2016-11-17 20:55:36.642,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_297.txt -o /cal/homes/ruser/git/SANDBOX/UM_297
+2016-11-17 20:55:36.642,Thread_493298806,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_297.txt -o /cal/homes/ruser/git/SANDBOX/UM_297] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:55:36.834,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_298.txt -o /cal/homes/ruser/git/SANDBOX/UM_298
+2016-11-17 20:55:36.835,Thread_1792944543,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_298.txt -o /cal/homes/ruser/git/SANDBOX/UM_298] on [ruser@c133-05,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:36.896,Thread_448895662,Process finished with status: Success and returned: [c133-08/137.194.34.72] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_281.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_281
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_281
+
+2016-11-17 20:55:36.963,Thread_649198496,Process finished with status: Failed and returned: Error: Unable to access jarfile /Slave.jar
+
+2016-11-17 20:55:37.006,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_296.txt -o /cal/homes/ruser/git/SANDBOX/UM_296
+2016-11-17 20:55:37.007,Thread_965465734,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_296.txt -o /cal/homes/ruser/git/SANDBOX/UM_296] on [ruser@c133-08,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:37.061,Thread_1044841764,Process finished with status: Success and returned: [c133-04/137.194.34.68] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_282.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_282
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_282
+
+2016-11-17 20:55:37.199,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_299.txt -o /cal/homes/ruser/git/SANDBOX/UM_299
+2016-11-17 20:55:37.199,Thread_383064897,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_299.txt -o /cal/homes/ruser/git/SANDBOX/UM_299] on [ruser@c133-08,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:37.249,Thread_1280252658,Process finished with status: Success and returned: [c133-07/137.194.34.71] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_280.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_280
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_280
+
+2016-11-17 20:55:37.391,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_300.txt -o /cal/homes/ruser/git/SANDBOX/UM_300
+2016-11-17 20:55:37.391,Thread_572669030,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_300.txt -o /cal/homes/ruser/git/SANDBOX/UM_300] on [ruser@c133-04,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:37.409,Thread_1927859348,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_283.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_283
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_283
+
+2016-11-17 20:55:37.580,Thread_1045924614,Process finished with status: Success and returned: [c133-09/137.194.34.73] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_284.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_284
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_284
+
+2016-11-17 20:55:37.583,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_301.txt -o /cal/homes/ruser/git/SANDBOX/UM_301
+2016-11-17 20:55:37.584,Thread_1984848588,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_301.txt -o /cal/homes/ruser/git/SANDBOX/UM_301] on [ruser@c133-07,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:37.765,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_302.txt -o /cal/homes/ruser/git/SANDBOX/UM_302
+2016-11-17 20:55:37.766,Thread_138741741,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_302.txt -o /cal/homes/ruser/git/SANDBOX/UM_302] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:37.776,Thread_622888216,Process finished with status: Success and returned: [c133-03/137.194.34.67] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_285.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_285
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_285
+
+2016-11-17 20:55:37.948,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_303.txt -o /cal/homes/ruser/git/SANDBOX/UM_303
+2016-11-17 20:55:37.948,Thread_1576837202,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_303.txt -o /cal/homes/ruser/git/SANDBOX/UM_303] on [ruser@c133-09,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:37.977,Thread_414642098,Process finished with status: Success and returned: [c133-02/137.194.34.66] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_286.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_286
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_286
+
+2016-11-17 20:55:38.061,Thread_949106114,Process finished with status: Success and returned: [c130-18/137.194.35.18] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_287.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_287
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_287
+
+2016-11-17 20:55:38.140,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_304.txt -o /cal/homes/ruser/git/SANDBOX/UM_304
+2016-11-17 20:55:38.140,Thread_1745773279,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_304.txt -o /cal/homes/ruser/git/SANDBOX/UM_304] on [ruser@c133-03,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:38.294,Thread_2037351640,Process finished with status: Success and returned: [c133-01/137.194.34.65] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_288.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_288
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_288
+
+2016-11-17 20:55:38.322,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_305.txt -o /cal/homes/ruser/git/SANDBOX/UM_305
+2016-11-17 20:55:38.323,Thread_1544261186,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_305.txt -o /cal/homes/ruser/git/SANDBOX/UM_305] on [ruser@c130-18,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:55:38.444,Thread_849227344,Process finished with status: Success and returned: [c130-33/137.194.35.33] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_289.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_289
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_289
+
+2016-11-17 20:55:38.505,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_306.txt -o /cal/homes/ruser/git/SANDBOX/UM_306
+2016-11-17 20:55:38.505,Thread_1550016414,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_306.txt -o /cal/homes/ruser/git/SANDBOX/UM_306] on [ruser@c133-02,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:38.585,Thread_988821214,Process finished with status: Success and returned: [c133-09/137.194.34.73] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_290.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_290
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_290
+
+2016-11-17 20:55:38.687,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_307.txt -o /cal/homes/ruser/git/SANDBOX/UM_307
+2016-11-17 20:55:38.687,Thread_1467079776,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_307.txt -o /cal/homes/ruser/git/SANDBOX/UM_307] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:55:38.869,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_308.txt -o /cal/homes/ruser/git/SANDBOX/UM_308
+2016-11-17 20:55:38.869,Thread_1641991308,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_308.txt -o /cal/homes/ruser/git/SANDBOX/UM_308] on [ruser@c133-01,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:39.061,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_309.txt -o /cal/homes/ruser/git/SANDBOX/UM_309
+2016-11-17 20:55:39.062,Thread_1727917804,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_309.txt -o /cal/homes/ruser/git/SANDBOX/UM_309] on [ruser@c133-09,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:39.192,Thread_1467079776,Process finished with status: Failed and returned: ssh_exchange_identification: Connection closed by remote host
+
+2016-11-17 20:55:39.552,Thread_536452752,Process finished with status: Success and returned: [c133-06/137.194.34.70] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_292.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_292
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_292
+
+2016-11-17 20:55:39.716,Thread_947887472,Process finished with status: Success and returned: [c133-10/137.194.34.74] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_293.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_293
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_293
+
+2016-11-17 20:55:39.724,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_307.txt -o /cal/homes/ruser/git/SANDBOX/UM_307
+2016-11-17 20:55:39.724,Thread_67338754,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_307.txt -o /cal/homes/ruser/git/SANDBOX/UM_307] on []
+2016-11-17 20:55:39.858,Thread_1021122941,Process finished with status: Success and returned: [c133-12/137.194.34.76] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_291.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_291
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_291
+
+2016-11-17 20:55:39.906,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_310.txt -o /cal/homes/ruser/git/SANDBOX/UM_310
+2016-11-17 20:55:39.906,Thread_1626669016,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_310.txt -o /cal/homes/ruser/git/SANDBOX/UM_310] on [ruser@c133-06,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:39.918,Thread_174772618,Process finished with status: Success and returned: [c133-11/137.194.34.75] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_294.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_294
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_294
+
+2016-11-17 20:55:40.088,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_311.txt -o /cal/homes/ruser/git/SANDBOX/UM_311
+2016-11-17 20:55:40.089,Thread_871149716,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_311.txt -o /cal/homes/ruser/git/SANDBOX/UM_311] on [ruser@c133-10,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:40.227,Thread_67338754,Process finished with status: Failed and returned: Error: Unable to access jarfile /Slave.jar
+
+2016-11-17 20:55:40.254,Thread_1287868541,Process finished with status: Success and returned: [c133-05/137.194.34.69] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_295.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_295
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_295
+
+2016-11-17 20:55:40.270,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_312.txt -o /cal/homes/ruser/git/SANDBOX/UM_312
+2016-11-17 20:55:40.271,Thread_1684029702,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_312.txt -o /cal/homes/ruser/git/SANDBOX/UM_312] on [ruser@c133-12,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:40.392,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_307.txt -o /cal/homes/ruser/git/SANDBOX/UM_307
+2016-11-17 20:55:40.393,Thread_361798124,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_307.txt -o /cal/homes/ruser/git/SANDBOX/UM_307] on [ruser@c133-11,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:40.574,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_313.txt -o /cal/homes/ruser/git/SANDBOX/UM_313
+2016-11-17 20:55:40.574,Thread_2115930648,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_313.txt -o /cal/homes/ruser/git/SANDBOX/UM_313] on [ruser@c133-05,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:41.246,Thread_1792944543,Process finished with status: Success and returned: [c133-05/137.194.34.69] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_298.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_298
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_298
+
+2016-11-17 20:55:41.267,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_314.txt -o /cal/homes/ruser/git/SANDBOX/UM_314
+2016-11-17 20:55:41.267,Thread_649090813,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_314.txt -o /cal/homes/ruser/git/SANDBOX/UM_314] on []
+2016-11-17 20:55:41.459,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_315.txt -o /cal/homes/ruser/git/SANDBOX/UM_315
+2016-11-17 20:55:41.460,Thread_1816920494,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_315.txt -o /cal/homes/ruser/git/SANDBOX/UM_315] on [ruser@c133-05,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:41.540,Thread_965465734,Process finished with status: Success and returned: [c133-08/137.194.34.72] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_296.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_296
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_296
+
+2016-11-17 20:55:41.636,Thread_383064897,Process finished with status: Success and returned: [c133-08/137.194.34.72] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_299.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_299
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_299
+
+2016-11-17 20:55:41.770,Thread_649090813,Process finished with status: Failed and returned: Error: Unable to access jarfile /Slave.jar
+
+2016-11-17 20:55:41.883,Thread_572669030,Process finished with status: Success and returned: [c133-04/137.194.34.68] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_300.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_300
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_300
+
+2016-11-17 20:55:42.079,Thread_1984848588,Process finished with status: Success and returned: [c133-07/137.194.34.71] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_301.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_301
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_301
+
+2016-11-17 20:55:42.112,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_314.txt -o /cal/homes/ruser/git/SANDBOX/UM_314
+2016-11-17 20:55:42.112,Thread_27378165,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_314.txt -o /cal/homes/ruser/git/SANDBOX/UM_314] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:55:42.154,Thread_493298806,Process finished with status: Success and returned: [c130-33/137.194.35.33] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_297.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_297
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_297
+
+2016-11-17 20:55:42.247,Thread_138741741,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_302.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_302
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_302
+
+2016-11-17 20:55:42.274,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_316.txt -o /cal/homes/ruser/git/SANDBOX/UM_316
+2016-11-17 20:55:42.274,Thread_1074455825,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_316.txt -o /cal/homes/ruser/git/SANDBOX/UM_316] on [ruser@c133-08,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:42.426,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_317.txt -o /cal/homes/ruser/git/SANDBOX/UM_317
+2016-11-17 20:55:42.426,Thread_1456081751,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_317.txt -o /cal/homes/ruser/git/SANDBOX/UM_317] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:55:42.426,Thread_1576837202,Process finished with status: Success and returned: [c133-09/137.194.34.73] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_303.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_303
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_303
+
+2016-11-17 20:55:42.578,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_318.txt -o /cal/homes/ruser/git/SANDBOX/UM_318
+2016-11-17 20:55:42.578,Thread_1894442515,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_318.txt -o /cal/homes/ruser/git/SANDBOX/UM_318] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:42.581,Thread_1745773279,Process finished with status: Success and returned: [c133-03/137.194.34.67] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_304.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_304
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_304
+
+2016-11-17 20:55:42.729,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_319.txt -o /cal/homes/ruser/git/SANDBOX/UM_319
+2016-11-17 20:55:42.730,Thread_402603869,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_319.txt -o /cal/homes/ruser/git/SANDBOX/UM_319] on [ruser@c133-09,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:42.799,Thread_1544261186,Process finished with status: Success and returned: [c130-18/137.194.35.18] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_305.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_305
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_305
+
+2016-11-17 20:55:42.891,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_320.txt -o /cal/homes/ruser/git/SANDBOX/UM_320
+2016-11-17 20:55:42.892,Thread_915130947,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_320.txt -o /cal/homes/ruser/git/SANDBOX/UM_320] on [ruser@c133-07,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:42.961,Thread_1550016414,Process finished with status: Success and returned: [c133-02/137.194.34.66] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_306.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_306
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_306
+
+2016-11-17 20:55:43.053,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_321.txt -o /cal/homes/ruser/git/SANDBOX/UM_321
+2016-11-17 20:55:43.053,Thread_1352358703,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_321.txt -o /cal/homes/ruser/git/SANDBOX/UM_321] on [ruser@c130-18,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:55:43.215,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_322.txt -o /cal/homes/ruser/git/SANDBOX/UM_322
+2016-11-17 20:55:43.216,Thread_1221448063,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_322.txt -o /cal/homes/ruser/git/SANDBOX/UM_322] on [ruser@c133-04,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:43.344,Thread_1641991308,Process finished with status: Success and returned: [c133-01/137.194.34.65] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_308.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_308
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_308
+
+2016-11-17 20:55:43.387,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_323.txt -o /cal/homes/ruser/git/SANDBOX/UM_323
+2016-11-17 20:55:43.388,Thread_1157010015,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_323.txt -o /cal/homes/ruser/git/SANDBOX/UM_323] on [ruser@c133-03,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:43.477,Thread_1727917804,Process finished with status: Success and returned: [c133-09/137.194.34.73] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_309.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_309
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_309
+
+2016-11-17 20:55:43.559,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_324.txt -o /cal/homes/ruser/git/SANDBOX/UM_324
+2016-11-17 20:55:43.560,Thread_499486649,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_324.txt -o /cal/homes/ruser/git/SANDBOX/UM_324] on [ruser@c133-02,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:43.732,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_325.txt -o /cal/homes/ruser/git/SANDBOX/UM_325
+2016-11-17 20:55:43.732,Thread_35437858,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_325.txt -o /cal/homes/ruser/git/SANDBOX/UM_325] on [ruser@c133-01,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:43.914,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_326.txt -o /cal/homes/ruser/git/SANDBOX/UM_326
+2016-11-17 20:55:43.914,Thread_983228843,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_326.txt -o /cal/homes/ruser/git/SANDBOX/UM_326] on [ruser@c133-09,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:44.106,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_327.txt -o /cal/homes/ruser/git/SANDBOX/UM_327
+2016-11-17 20:55:44.106,Thread_529965598,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_327.txt -o /cal/homes/ruser/git/SANDBOX/UM_327] on [ruser@c133-08,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:44.368,Thread_1626669016,Process finished with status: Success and returned: [c133-06/137.194.34.70] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_310.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_310
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_310
+
+2016-11-17 20:55:44.573,Thread_871149716,Process finished with status: Success and returned: [c133-10/137.194.34.74] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_311.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_311
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_311
+
+2016-11-17 20:55:44.708,Thread_361798124,Process finished with status: Success and returned: [c133-11/137.194.34.75] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_307.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_307
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_307
+
+2016-11-17 20:55:44.750,Thread_1684029702,Process finished with status: Success and returned: [c133-12/137.194.34.76] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_312.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_312
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_312
+
+2016-11-17 20:55:44.788,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_328.txt -o /cal/homes/ruser/git/SANDBOX/UM_328
+2016-11-17 20:55:44.789,Thread_1187323108,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_328.txt -o /cal/homes/ruser/git/SANDBOX/UM_328] on []
+2016-11-17 20:55:45.045,Thread_2115930648,Process finished with status: Success and returned: [c133-05/137.194.34.69] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_313.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_313
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_313
+
+2016-11-17 20:55:45.291,Thread_1187323108,Process finished with status: Failed and returned: Error: Unable to access jarfile /Slave.jar
+
+2016-11-17 20:55:45.448,Master,Starting Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_328.txt -o /cal/homes/ruser/git/SANDBOX/UM_328
+2016-11-17 20:55:45.448,Thread_939716707,Creating slave [Slave.jar -m /cal/homes/ruser/git/SANDBOX/SPLIT_328.txt -o /cal/homes/ruser/git/SANDBOX/UM_328] on [ruser@c133-06,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:55:45.945,Thread_1816920494,Process finished with status: Success and returned: [c133-05/137.194.34.69] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_315.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_315
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_315
+
+2016-11-17 20:55:46.631,Thread_27378165,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_314.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_314
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_314
+
+2016-11-17 20:55:46.649,Thread_1074455825,Process finished with status: Success and returned: [c133-08/137.194.34.72] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_316.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_316
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_316
+
+2016-11-17 20:55:46.796,Thread_1456081751,Process finished with status: Success and returned: [c130-33/137.194.35.33] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_317.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_317
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_317
+
+2016-11-17 20:55:46.927,Thread_1894442515,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_318.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_318
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_318
+
+2016-11-17 20:55:47.094,Thread_402603869,Process finished with status: Success and returned: [c133-09/137.194.34.73] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_319.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_319
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_319
+
+2016-11-17 20:55:47.508,Thread_915130947,Process finished with status: Success and returned: [c133-07/137.194.34.71] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_320.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_320
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_320
+
+2016-11-17 20:55:47.560,Thread_1352358703,Process finished with status: Success and returned: [c130-18/137.194.35.18] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_321.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_321
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_321
+
+2016-11-17 20:55:47.757,Thread_1157010015,Process finished with status: Success and returned: [c133-03/137.194.34.67] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_323.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_323
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_323
+
+2016-11-17 20:55:47.821,Thread_1221448063,Process finished with status: Success and returned: [c133-04/137.194.34.68] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_322.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_322
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_322
+
+2016-11-17 20:55:47.933,Thread_499486649,Process finished with status: Success and returned: [c133-02/137.194.34.66] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_324.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_324
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_324
+
+2016-11-17 20:55:48.110,Thread_35437858,Process finished with status: Success and returned: [c133-01/137.194.34.65] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_325.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_325
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_325
+
+2016-11-17 20:55:48.249,Thread_983228843,Process finished with status: Success and returned: [c133-09/137.194.34.73] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_326.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_326
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_326
+
+2016-11-17 20:55:48.658,Thread_529965598,Process finished with status: Success and returned: [c133-08/137.194.34.72] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_327.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_327
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_327
+
+2016-11-17 20:55:50.017,Thread_939716707,Process finished with status: Success and returned: [c133-06/137.194.34.70] Slave counting key from Sx file /cal/homes/ruser/git/SANDBOX/SPLIT_328.txt...Generating /cal/homes/ruser/git/SANDBOX/UM_328
+... job finished. Output UMx file /cal/homes/ruser/git/SANDBOX/UM_328
+
+2016-11-17 20:55:50.034,Master,------ Map process done------ 
+2016-11-17 20:55:50.034,Master,------ Shuffling ------ 
+2016-11-17 20:55:50.034,Master,Creating 328 SM files.
+2016-11-17 20:55:53.002,Master,Reading 328 UM files and shuffling keys.
+
+
+2016-11-17 20:56:34.805,Thread_1542602760,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_207.txt -o /cal/homes/ruser/git/SANDBOX/RM_207] on [ruser@c133-09,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:34.865,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_208.txt -o /cal/homes/ruser/git/SANDBOX/RM_208
+2016-11-17 20:56:34.866,Thread_72893155,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_208.txt -o /cal/homes/ruser/git/SANDBOX/RM_208] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:56:34.874,Thread_470367036,Process finished with status: Success and returned: [c133-07/137.194.34.71] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_203.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_203
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_203
+
+2016-11-17 20:56:34.926,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_209.txt -o /cal/homes/ruser/git/SANDBOX/RM_209
+2016-11-17 20:56:34.926,Thread_814920607,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_209.txt -o /cal/homes/ruser/git/SANDBOX/RM_209] on [ruser@c133-08,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:34.946,Thread_1140092731,Process finished with status: Success and returned: [c130-18/137.194.35.18] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_204.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_204
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_204
+
+2016-11-17 20:56:34.997,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_210.txt -o /cal/homes/ruser/git/SANDBOX/RM_210
+2016-11-17 20:56:34.997,Thread_337297605,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_210.txt -o /cal/homes/ruser/git/SANDBOX/RM_210] on [ruser@c133-07,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:35.044,Thread_244473447,Process finished with status: Success and returned: [c133-06/137.194.34.70] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_205.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_205
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_205
+
+2016-11-17 20:56:35.068,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_211.txt -o /cal/homes/ruser/git/SANDBOX/RM_211
+2016-11-17 20:56:35.068,Thread_1949243785,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_211.txt -o /cal/homes/ruser/git/SANDBOX/RM_211] on [ruser@c130-18,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:56:35.071,Thread_1026745391,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_206.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_206
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_206
+
+2016-11-17 20:56:35.129,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_212.txt -o /cal/homes/ruser/git/SANDBOX/RM_212
+2016-11-17 20:56:35.129,Thread_65956713,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_212.txt -o /cal/homes/ruser/git/SANDBOX/RM_212] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:35.146,Thread_1542602760,Process finished with status: Success and returned: [c133-09/137.194.34.73] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_207.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_207
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_207
+
+2016-11-17 20:56:35.199,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_213.txt -o /cal/homes/ruser/git/SANDBOX/RM_213
+2016-11-17 20:56:35.200,Thread_303253937,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_213.txt -o /cal/homes/ruser/git/SANDBOX/RM_213] on [ruser@c133-06,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:35.265,Thread_72893155,Process finished with status: Success and returned: [c130-33/137.194.35.33] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_208.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_208
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_208
+
+2016-11-17 20:56:35.270,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_214.txt -o /cal/homes/ruser/git/SANDBOX/RM_214
+2016-11-17 20:56:35.271,Thread_254878569,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_214.txt -o /cal/homes/ruser/git/SANDBOX/RM_214] on [ruser@c133-09,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:35.271,Thread_814920607,Process finished with status: Success and returned: [c133-08/137.194.34.72] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_209.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_209
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_209
+
+2016-11-17 20:56:35.331,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_215.txt -o /cal/homes/ruser/git/SANDBOX/RM_215
+2016-11-17 20:56:35.332,Thread_453882220,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_215.txt -o /cal/homes/ruser/git/SANDBOX/RM_215] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:56:35.350,Thread_337297605,Process finished with status: Success and returned: [c133-07/137.194.34.71] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_210.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_210
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_210
+
+2016-11-17 20:56:35.402,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_216.txt -o /cal/homes/ruser/git/SANDBOX/RM_216
+2016-11-17 20:56:35.402,Thread_636320819,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_216.txt -o /cal/homes/ruser/git/SANDBOX/RM_216] on [ruser@c133-08,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:35.420,Thread_1949243785,Process finished with status: Success and returned: [c130-18/137.194.35.18] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_211.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_211
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_211
+
+2016-11-17 20:56:35.473,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_217.txt -o /cal/homes/ruser/git/SANDBOX/RM_217
+2016-11-17 20:56:35.473,Thread_173319180,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_217.txt -o /cal/homes/ruser/git/SANDBOX/RM_217] on [ruser@c133-07,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:35.500,Thread_65956713,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_212.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_212
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_212
+
+2016-11-17 20:56:35.544,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_218.txt -o /cal/homes/ruser/git/SANDBOX/RM_218
+2016-11-17 20:56:35.544,Thread_1245513233,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_218.txt -o /cal/homes/ruser/git/SANDBOX/RM_218] on [ruser@c130-18,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:56:35.609,Thread_254878569,Process finished with status: Success and returned: [c133-09/137.194.34.73] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_214.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_214
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_214
+
+2016-11-17 20:56:35.615,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_219.txt -o /cal/homes/ruser/git/SANDBOX/RM_219
+2016-11-17 20:56:35.615,Thread_1657565432,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_219.txt -o /cal/homes/ruser/git/SANDBOX/RM_219] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:35.642,Thread_303253937,Process finished with status: Success and returned: [c133-06/137.194.34.70] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_213.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_213
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_213
+
+2016-11-17 20:56:35.686,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_220.txt -o /cal/homes/ruser/git/SANDBOX/RM_220
+2016-11-17 20:56:35.686,Thread_1348301538,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_220.txt -o /cal/homes/ruser/git/SANDBOX/RM_220] on [ruser@c133-09,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:35.689,Thread_453882220,Process finished with status: Success and returned: [c130-33/137.194.35.33] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_215.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_215
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_215
+
+2016-11-17 20:56:35.746,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_221.txt -o /cal/homes/ruser/git/SANDBOX/RM_221
+2016-11-17 20:56:35.747,Thread_125733468,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_221.txt -o /cal/homes/ruser/git/SANDBOX/RM_221] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:56:35.758,Thread_636320819,Process finished with status: Success and returned: [c133-08/137.194.34.72] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_216.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_216
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_216
+
+2016-11-17 20:56:35.817,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_222.txt -o /cal/homes/ruser/git/SANDBOX/RM_222
+2016-11-17 20:56:35.817,Thread_593327338,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_222.txt -o /cal/homes/ruser/git/SANDBOX/RM_222] on [ruser@c133-06,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:35.819,Thread_173319180,Process finished with status: Success and returned: [c133-07/137.194.34.71] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_217.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_217
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_217
+
+2016-11-17 20:56:35.878,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_223.txt -o /cal/homes/ruser/git/SANDBOX/RM_223
+2016-11-17 20:56:35.878,Thread_1471869807,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_223.txt -o /cal/homes/ruser/git/SANDBOX/RM_223] on [ruser@c133-08,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:35.925,Thread_1245513233,Process finished with status: Success and returned: [c130-18/137.194.35.18] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_218.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_218
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_218
+
+2016-11-17 20:56:35.949,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_224.txt -o /cal/homes/ruser/git/SANDBOX/RM_224
+2016-11-17 20:56:35.949,Thread_1819968737,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_224.txt -o /cal/homes/ruser/git/SANDBOX/RM_224] on [ruser@c133-07,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:35.958,Thread_1657565432,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_219.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_219
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_219
+
+2016-11-17 20:56:36.010,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_225.txt -o /cal/homes/ruser/git/SANDBOX/RM_225
+2016-11-17 20:56:36.010,Thread_332198199,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_225.txt -o /cal/homes/ruser/git/SANDBOX/RM_225] on [ruser@c130-18,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:56:36.012,Thread_1348301538,Process finished with status: Success and returned: [c133-09/137.194.34.73] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_220.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_220
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_220
+
+2016-11-17 20:56:36.070,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_226.txt -o /cal/homes/ruser/git/SANDBOX/RM_226
+2016-11-17 20:56:36.071,Thread_690637999,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_226.txt -o /cal/homes/ruser/git/SANDBOX/RM_226] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:36.099,Thread_125733468,Process finished with status: Success and returned: [c130-33/137.194.35.33] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_221.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_221
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_221
+
+2016-11-17 20:56:36.141,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_227.txt -o /cal/homes/ruser/git/SANDBOX/RM_227
+2016-11-17 20:56:36.141,Thread_1709573633,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_227.txt -o /cal/homes/ruser/git/SANDBOX/RM_227] on [ruser@c133-09,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:36.158,Thread_593327338,Process finished with status: Success and returned: [c133-06/137.194.34.70] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_222.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_222
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_222
+
+2016-11-17 20:56:36.212,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_228.txt -o /cal/homes/ruser/git/SANDBOX/RM_228
+2016-11-17 20:56:36.212,Thread_757411119,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_228.txt -o /cal/homes/ruser/git/SANDBOX/RM_228] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:56:36.283,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_229.txt -o /cal/homes/ruser/git/SANDBOX/RM_229
+2016-11-17 20:56:36.283,Thread_662070230,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_229.txt -o /cal/homes/ruser/git/SANDBOX/RM_229] on [ruser@c133-06,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:36.294,Thread_1471869807,Process finished with status: Success and returned: [c133-08/137.194.34.72] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_223.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_223
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_223
+
+2016-11-17 20:56:36.360,Thread_1819968737,Process finished with status: Success and returned: [c133-07/137.194.34.71] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_224.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_224
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_224
+
+2016-11-17 20:56:36.364,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_230.txt -o /cal/homes/ruser/git/SANDBOX/RM_230
+2016-11-17 20:56:36.364,Thread_1395085579,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_230.txt -o /cal/homes/ruser/git/SANDBOX/RM_230] on [ruser@c133-05,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:36.422,Thread_690637999,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_226.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_226
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_226
+
+2016-11-17 20:56:36.435,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_231.txt -o /cal/homes/ruser/git/SANDBOX/RM_231
+2016-11-17 20:56:36.435,Thread_713154434,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_231.txt -o /cal/homes/ruser/git/SANDBOX/RM_231] on [ruser@c133-08,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:36.485,Thread_1709573633,Process finished with status: Success and returned: [c133-09/137.194.34.73] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_227.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_227
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_227
+
+2016-11-17 20:56:36.505,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_232.txt -o /cal/homes/ruser/git/SANDBOX/RM_232
+2016-11-17 20:56:36.506,Thread_1831484934,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_232.txt -o /cal/homes/ruser/git/SANDBOX/RM_232] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:36.576,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_233.txt -o /cal/homes/ruser/git/SANDBOX/RM_233
+2016-11-17 20:56:36.577,Thread_506575947,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_233.txt -o /cal/homes/ruser/git/SANDBOX/RM_233] on [ruser@c133-09,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:36.589,Thread_757411119,Process finished with status: Success and returned: [c130-33/137.194.35.33] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_228.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_228
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_228
+
+2016-11-17 20:56:36.647,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_234.txt -o /cal/homes/ruser/git/SANDBOX/RM_234
+2016-11-17 20:56:36.647,Thread_1277559090,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_234.txt -o /cal/homes/ruser/git/SANDBOX/RM_234] on [ruser@c133-07,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:36.668,Thread_662070230,Process finished with status: Success and returned: [c133-06/137.194.34.70] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_229.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_229
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_229
+
+2016-11-17 20:56:36.711,Thread_1395085579,Process finished with status: Success and returned: [c133-05/137.194.34.69] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_230.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_230
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_230
+
+2016-11-17 20:56:36.728,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_235.txt -o /cal/homes/ruser/git/SANDBOX/RM_235
+2016-11-17 20:56:36.728,Thread_1977394898,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_235.txt -o /cal/homes/ruser/git/SANDBOX/RM_235] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:56:36.799,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_236.txt -o /cal/homes/ruser/git/SANDBOX/RM_236
+2016-11-17 20:56:36.799,Thread_361854905,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_236.txt -o /cal/homes/ruser/git/SANDBOX/RM_236] on [ruser@c133-06,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:36.850,Thread_1831484934,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_232.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_232
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_232
+
+2016-11-17 20:56:36.880,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_237.txt -o /cal/homes/ruser/git/SANDBOX/RM_237
+2016-11-17 20:56:36.880,Thread_1787684674,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_237.txt -o /cal/homes/ruser/git/SANDBOX/RM_237] on [ruser@c133-05,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:36.908,Thread_506575947,Process finished with status: Success and returned: [c133-09/137.194.34.73] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_233.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_233
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_233
+
+2016-11-17 20:56:36.935,Thread_713154434,Process finished with status: Success and returned: [c133-08/137.194.34.72] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_231.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_231
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_231
+
+2016-11-17 20:56:36.951,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_238.txt -o /cal/homes/ruser/git/SANDBOX/RM_238
+2016-11-17 20:56:36.951,Thread_1965800537,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_238.txt -o /cal/homes/ruser/git/SANDBOX/RM_238] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:36.971,Thread_1277559090,Process finished with status: Success and returned: [c133-07/137.194.34.71] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_234.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_234
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_234
+
+2016-11-17 20:56:37.012,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_239.txt -o /cal/homes/ruser/git/SANDBOX/RM_239
+2016-11-17 20:56:37.012,Thread_1218972775,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_239.txt -o /cal/homes/ruser/git/SANDBOX/RM_239] on [ruser@c133-09,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:37.074,Thread_1977394898,Process finished with status: Success and returned: [c130-33/137.194.35.33] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_235.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_235
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_235
+
+2016-11-17 20:56:37.083,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_240.txt -o /cal/homes/ruser/git/SANDBOX/RM_240
+2016-11-17 20:56:37.083,Thread_1353424621,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_240.txt -o /cal/homes/ruser/git/SANDBOX/RM_240] on [ruser@c133-08,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:37.139,Thread_361854905,Process finished with status: Success and returned: [c133-06/137.194.34.70] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_236.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_236
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_236
+
+2016-11-17 20:56:37.154,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_241.txt -o /cal/homes/ruser/git/SANDBOX/RM_241
+2016-11-17 20:56:37.154,Thread_139249422,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_241.txt -o /cal/homes/ruser/git/SANDBOX/RM_241] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:56:37.218,Thread_1787684674,Process finished with status: Success and returned: [c133-05/137.194.34.69] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_237.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_237
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_237
+
+2016-11-17 20:56:37.225,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_242.txt -o /cal/homes/ruser/git/SANDBOX/RM_242
+2016-11-17 20:56:37.225,Thread_2083261758,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_242.txt -o /cal/homes/ruser/git/SANDBOX/RM_242] on [ruser@c133-07,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:37.296,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_243.txt -o /cal/homes/ruser/git/SANDBOX/RM_243
+2016-11-17 20:56:37.296,Thread_1654773721,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_243.txt -o /cal/homes/ruser/git/SANDBOX/RM_243] on [ruser@c133-06,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:37.296,Thread_1965800537,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_238.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_238
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_238
+
+2016-11-17 20:56:37.367,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_244.txt -o /cal/homes/ruser/git/SANDBOX/RM_244
+2016-11-17 20:56:37.367,Thread_295873604,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_244.txt -o /cal/homes/ruser/git/SANDBOX/RM_244] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:37.372,Thread_1218972775,Process finished with status: Success and returned: [c133-09/137.194.34.73] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_239.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_239
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_239
+
+2016-11-17 20:56:37.414,Thread_1353424621,Process finished with status: Success and returned: [c133-08/137.194.34.72] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_240.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_240
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_240
+
+2016-11-17 20:56:37.438,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_245.txt -o /cal/homes/ruser/git/SANDBOX/RM_245
+2016-11-17 20:56:37.438,Thread_945122723,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_245.txt -o /cal/homes/ruser/git/SANDBOX/RM_245] on [ruser@c133-09,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:37.509,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_246.txt -o /cal/homes/ruser/git/SANDBOX/RM_246
+2016-11-17 20:56:37.509,Thread_1089346283,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_246.txt -o /cal/homes/ruser/git/SANDBOX/RM_246] on [ruser@c133-08,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:37.509,Thread_139249422,Process finished with status: Success and returned: [c130-33/137.194.35.33] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_241.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_241
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_241
+
+2016-11-17 20:56:37.580,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_247.txt -o /cal/homes/ruser/git/SANDBOX/RM_247
+2016-11-17 20:56:37.580,Thread_1262290067,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_247.txt -o /cal/homes/ruser/git/SANDBOX/RM_247] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:56:37.584,Thread_2083261758,Process finished with status: Success and returned: [c133-07/137.194.34.71] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_242.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_242
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_242
+
+2016-11-17 20:56:37.632,Thread_1654773721,Process finished with status: Success and returned: [c133-06/137.194.34.70] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_243.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_243
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_243
+
+2016-11-17 20:56:37.650,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_248.txt -o /cal/homes/ruser/git/SANDBOX/RM_248
+2016-11-17 20:56:37.651,Thread_876751262,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_248.txt -o /cal/homes/ruser/git/SANDBOX/RM_248] on [ruser@c133-07,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:37.721,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_249.txt -o /cal/homes/ruser/git/SANDBOX/RM_249
+2016-11-17 20:56:37.722,Thread_1621800351,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_249.txt -o /cal/homes/ruser/git/SANDBOX/RM_249] on [ruser@c133-06,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:37.729,Thread_295873604,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_244.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_244
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_244
+
+2016-11-17 20:56:37.750,Thread_945122723,Process finished with status: Success and returned: [c133-09/137.194.34.73] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_245.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_245
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_245
+
+2016-11-17 20:56:37.792,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_250.txt -o /cal/homes/ruser/git/SANDBOX/RM_250
+2016-11-17 20:56:37.793,Thread_2105286989,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_250.txt -o /cal/homes/ruser/git/SANDBOX/RM_250] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:37.823,Thread_1089346283,Process finished with status: Success and returned: [c133-08/137.194.34.72] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_246.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_246
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_246
+
+2016-11-17 20:56:37.863,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_251.txt -o /cal/homes/ruser/git/SANDBOX/RM_251
+2016-11-17 20:56:37.864,Thread_2017875190,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_251.txt -o /cal/homes/ruser/git/SANDBOX/RM_251] on [ruser@c133-09,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:37.917,Thread_1262290067,Process finished with status: Success and returned: [c130-33/137.194.35.33] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_247.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_247
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_247
+
+2016-11-17 20:56:37.934,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_252.txt -o /cal/homes/ruser/git/SANDBOX/RM_252
+2016-11-17 20:56:37.935,Thread_518770477,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_252.txt -o /cal/homes/ruser/git/SANDBOX/RM_252] on [ruser@c133-08,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:37.997,Thread_876751262,Process finished with status: Success and returned: [c133-07/137.194.34.71] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_248.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_248
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_248
+
+2016-11-17 20:56:38.005,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_253.txt -o /cal/homes/ruser/git/SANDBOX/RM_253
+2016-11-17 20:56:38.006,Thread_211645886,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_253.txt -o /cal/homes/ruser/git/SANDBOX/RM_253] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:56:38.070,Thread_1621800351,Process finished with status: Success and returned: [c133-06/137.194.34.70] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_249.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_249
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_249
+
+2016-11-17 20:56:38.076,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_254.txt -o /cal/homes/ruser/git/SANDBOX/RM_254
+2016-11-17 20:56:38.076,Thread_1533390757,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_254.txt -o /cal/homes/ruser/git/SANDBOX/RM_254] on [ruser@c133-07,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:38.131,Thread_2105286989,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_250.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_250
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_250
+
+2016-11-17 20:56:38.147,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_255.txt -o /cal/homes/ruser/git/SANDBOX/RM_255
+2016-11-17 20:56:38.147,Thread_1148807777,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_255.txt -o /cal/homes/ruser/git/SANDBOX/RM_255] on [ruser@c133-06,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:38.163,Thread_2017875190,Process finished with status: Success and returned: [c133-09/137.194.34.73] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_251.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_251
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_251
+
+2016-11-17 20:56:38.208,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_256.txt -o /cal/homes/ruser/git/SANDBOX/RM_256
+2016-11-17 20:56:38.208,Thread_2122245922,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_256.txt -o /cal/homes/ruser/git/SANDBOX/RM_256] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:38.259,Thread_518770477,Process finished with status: Success and returned: [c133-08/137.194.34.72] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_252.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_252
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_252
+
+2016-11-17 20:56:38.279,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_257.txt -o /cal/homes/ruser/git/SANDBOX/RM_257
+2016-11-17 20:56:38.279,Thread_1021632080,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_257.txt -o /cal/homes/ruser/git/SANDBOX/RM_257] on [ruser@c133-09,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:38.312,Thread_211645886,Process finished with status: Success and returned: [c130-33/137.194.35.33] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_253.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_253
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_253
+
+2016-11-17 20:56:38.350,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_258.txt -o /cal/homes/ruser/git/SANDBOX/RM_258
+2016-11-17 20:56:38.350,Thread_213249992,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_258.txt -o /cal/homes/ruser/git/SANDBOX/RM_258] on [ruser@c133-08,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:38.390,Thread_1533390757,Process finished with status: Success and returned: [c133-07/137.194.34.71] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_254.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_254
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_254
+
+2016-11-17 20:56:38.392,Thread_332198199,Process finished with status: Success and returned: [c130-18/137.194.35.18] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_225.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_225
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_225
+
+2016-11-17 20:56:38.421,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_259.txt -o /cal/homes/ruser/git/SANDBOX/RM_259
+2016-11-17 20:56:38.421,Thread_578162504,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_259.txt -o /cal/homes/ruser/git/SANDBOX/RM_259] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:56:38.459,Thread_1148807777,Process finished with status: Success and returned: [c133-06/137.194.34.70] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_255.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_255
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_255
+
+2016-11-17 20:56:38.481,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_260.txt -o /cal/homes/ruser/git/SANDBOX/RM_260
+2016-11-17 20:56:38.482,Thread_2069045744,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_260.txt -o /cal/homes/ruser/git/SANDBOX/RM_260] on [ruser@c130-18,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:56:38.542,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_261.txt -o /cal/homes/ruser/git/SANDBOX/RM_261
+2016-11-17 20:56:38.543,Thread_1573658356,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_261.txt -o /cal/homes/ruser/git/SANDBOX/RM_261] on [ruser@c133-07,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:38.552,Thread_2122245922,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_256.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_256
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_256
+
+2016-11-17 20:56:38.603,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_262.txt -o /cal/homes/ruser/git/SANDBOX/RM_262
+2016-11-17 20:56:38.603,Thread_947579911,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_262.txt -o /cal/homes/ruser/git/SANDBOX/RM_262] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:38.621,Thread_1021632080,Process finished with status: Success and returned: [c133-09/137.194.34.73] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_257.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_257
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_257
+
+2016-11-17 20:56:38.674,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_263.txt -o /cal/homes/ruser/git/SANDBOX/RM_263
+2016-11-17 20:56:38.674,Thread_1249488284,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_263.txt -o /cal/homes/ruser/git/SANDBOX/RM_263] on [ruser@c133-06,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:38.685,Thread_213249992,Process finished with status: Success and returned: [c133-08/137.194.34.72] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_258.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_258
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_258
+
+2016-11-17 20:56:38.745,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_264.txt -o /cal/homes/ruser/git/SANDBOX/RM_264
+2016-11-17 20:56:38.745,Thread_404071241,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_264.txt -o /cal/homes/ruser/git/SANDBOX/RM_264] on [ruser@c133-09,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:38.769,Thread_578162504,Process finished with status: Success and returned: [c130-33/137.194.35.33] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_259.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_259
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_259
+
+2016-11-17 20:56:38.816,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_265.txt -o /cal/homes/ruser/git/SANDBOX/RM_265
+2016-11-17 20:56:38.816,Thread_630080870,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_265.txt -o /cal/homes/ruser/git/SANDBOX/RM_265] on [ruser@c133-08,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:38.817,Thread_2069045744,Process finished with status: Success and returned: [c130-18/137.194.35.18] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_260.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_260
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_260
+
+2016-11-17 20:56:38.848,Thread_1573658356,Process finished with status: Success and returned: [c133-07/137.194.34.71] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_261.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_261
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_261
+
+2016-11-17 20:56:38.877,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_266.txt -o /cal/homes/ruser/git/SANDBOX/RM_266
+2016-11-17 20:56:38.877,Thread_2128418009,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_266.txt -o /cal/homes/ruser/git/SANDBOX/RM_266] on [ruser@c130-18,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:56:38.932,Thread_947579911,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_262.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_262
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_262
+
+2016-11-17 20:56:38.938,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_267.txt -o /cal/homes/ruser/git/SANDBOX/RM_267
+2016-11-17 20:56:38.938,Thread_317702382,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_267.txt -o /cal/homes/ruser/git/SANDBOX/RM_267] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:56:38.999,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_268.txt -o /cal/homes/ruser/git/SANDBOX/RM_268
+2016-11-17 20:56:38.999,Thread_1323054522,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_268.txt -o /cal/homes/ruser/git/SANDBOX/RM_268] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:39.011,Thread_1249488284,Process finished with status: Success and returned: [c133-06/137.194.34.70] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_263.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_263
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_263
+
+2016-11-17 20:56:39.070,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_269.txt -o /cal/homes/ruser/git/SANDBOX/RM_269
+2016-11-17 20:56:39.070,Thread_894843723,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_269.txt -o /cal/homes/ruser/git/SANDBOX/RM_269] on [ruser@c133-07,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:39.088,Thread_404071241,Process finished with status: Success and returned: [c133-09/137.194.34.73] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_264.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_264
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_264
+
+2016-11-17 20:56:39.141,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_270.txt -o /cal/homes/ruser/git/SANDBOX/RM_270
+2016-11-17 20:56:39.141,Thread_122870719,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_270.txt -o /cal/homes/ruser/git/SANDBOX/RM_270] on [ruser@c133-06,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:39.188,Thread_630080870,Process finished with status: Success and returned: [c133-08/137.194.34.72] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_265.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_265
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_265
+
+2016-11-17 20:56:39.197,Thread_2128418009,Process finished with status: Success and returned: [c130-18/137.194.35.18] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_266.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_266
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_266
+
+2016-11-17 20:56:39.211,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_271.txt -o /cal/homes/ruser/git/SANDBOX/RM_271
+2016-11-17 20:56:39.212,Thread_1298842157,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_271.txt -o /cal/homes/ruser/git/SANDBOX/RM_271] on [ruser@c133-09,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:39.252,Thread_317702382,Process finished with status: Success and returned: [c130-33/137.194.35.33] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_267.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_267
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_267
+
+2016-11-17 20:56:39.272,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_272.txt -o /cal/homes/ruser/git/SANDBOX/RM_272
+2016-11-17 20:56:39.273,Thread_1028384965,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_272.txt -o /cal/homes/ruser/git/SANDBOX/RM_272] on [ruser@c130-18,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:56:39.333,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_273.txt -o /cal/homes/ruser/git/SANDBOX/RM_273
+2016-11-17 20:56:39.333,Thread_1408292784,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_273.txt -o /cal/homes/ruser/git/SANDBOX/RM_273] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:56:39.382,Thread_894843723,Process finished with status: Success and returned: [c133-07/137.194.34.71] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_269.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_269
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_269
+
+2016-11-17 20:56:39.404,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_274.txt -o /cal/homes/ruser/git/SANDBOX/RM_274
+2016-11-17 20:56:39.404,Thread_1858307317,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_274.txt -o /cal/homes/ruser/git/SANDBOX/RM_274] on [ruser@c133-08,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:39.459,Thread_122870719,Process finished with status: Success and returned: [c133-06/137.194.34.70] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_270.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_270
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_270
+
+2016-11-17 20:56:39.475,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_275.txt -o /cal/homes/ruser/git/SANDBOX/RM_275
+2016-11-17 20:56:39.475,Thread_361725735,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_275.txt -o /cal/homes/ruser/git/SANDBOX/RM_275] on [ruser@c133-07,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:39.511,Thread_1298842157,Process finished with status: Success and returned: [c133-09/137.194.34.73] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_271.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_271
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_271
+
+2016-11-17 20:56:39.545,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_276.txt -o /cal/homes/ruser/git/SANDBOX/RM_276
+2016-11-17 20:56:39.546,Thread_206933874,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_276.txt -o /cal/homes/ruser/git/SANDBOX/RM_276] on [ruser@c133-06,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:39.597,Thread_1028384965,Process finished with status: Success and returned: [c130-18/137.194.35.18] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_272.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_272
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_272
+
+2016-11-17 20:56:39.616,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_277.txt -o /cal/homes/ruser/git/SANDBOX/RM_277
+2016-11-17 20:56:39.617,Thread_167195898,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_277.txt -o /cal/homes/ruser/git/SANDBOX/RM_277] on [ruser@c133-09,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:39.636,Thread_1323054522,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_268.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_268
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_268
+
+2016-11-17 20:56:39.665,Thread_1408292784,Process finished with status: Success and returned: [c130-33/137.194.35.33] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_273.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_273
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_273
+
+2016-11-17 20:56:39.687,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_278.txt -o /cal/homes/ruser/git/SANDBOX/RM_278
+2016-11-17 20:56:39.688,Thread_1308956636,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_278.txt -o /cal/homes/ruser/git/SANDBOX/RM_278] on [ruser@c130-18,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:56:39.736,Thread_1858307317,Process finished with status: Success and returned: [c133-08/137.194.34.72] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_274.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_274
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_274
+
+2016-11-17 20:56:39.748,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_279.txt -o /cal/homes/ruser/git/SANDBOX/RM_279
+2016-11-17 20:56:39.748,Thread_1449035144,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_279.txt -o /cal/homes/ruser/git/SANDBOX/RM_279] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:56:39.809,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_280.txt -o /cal/homes/ruser/git/SANDBOX/RM_280
+2016-11-17 20:56:39.809,Thread_1834050610,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_280.txt -o /cal/homes/ruser/git/SANDBOX/RM_280] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:39.809,Thread_361725735,Process finished with status: Success and returned: [c133-07/137.194.34.71] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_275.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_275
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_275
+
+2016-11-17 20:56:39.861,Thread_206933874,Process finished with status: Success and returned: [c133-06/137.194.34.70] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_276.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_276
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_276
+
+2016-11-17 20:56:39.870,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_281.txt -o /cal/homes/ruser/git/SANDBOX/RM_281
+2016-11-17 20:56:39.870,Thread_1249888770,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_281.txt -o /cal/homes/ruser/git/SANDBOX/RM_281] on [ruser@c133-08,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:39.928,Thread_167195898,Process finished with status: Success and returned: [c133-09/137.194.34.73] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_277.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_277
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_277
+
+2016-11-17 20:56:39.931,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_282.txt -o /cal/homes/ruser/git/SANDBOX/RM_282
+2016-11-17 20:56:39.931,Thread_495601942,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_282.txt -o /cal/homes/ruser/git/SANDBOX/RM_282] on [ruser@c133-07,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:39.991,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_283.txt -o /cal/homes/ruser/git/SANDBOX/RM_283
+2016-11-17 20:56:39.992,Thread_537166757,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_283.txt -o /cal/homes/ruser/git/SANDBOX/RM_283] on [ruser@c133-09,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:40.023,Thread_1308956636,Process finished with status: Success and returned: [c130-18/137.194.35.18] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_278.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_278
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_278
+
+2016-11-17 20:56:40.062,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_284.txt -o /cal/homes/ruser/git/SANDBOX/RM_284
+2016-11-17 20:56:40.063,Thread_171407124,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_284.txt -o /cal/homes/ruser/git/SANDBOX/RM_284] on [ruser@c133-06,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:40.078,Thread_1449035144,Process finished with status: Success and returned: [c130-33/137.194.35.33] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_279.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_279
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_279
+
+2016-11-17 20:56:40.103,Thread_1834050610,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_280.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_280
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_280
+
+2016-11-17 20:56:40.133,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_285.txt -o /cal/homes/ruser/git/SANDBOX/RM_285
+2016-11-17 20:56:40.134,Thread_2067900965,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_285.txt -o /cal/homes/ruser/git/SANDBOX/RM_285] on [ruser@c130-18,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:56:40.192,Thread_1249888770,Process finished with status: Success and returned: [c133-08/137.194.34.72] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_281.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_281
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_281
+
+2016-11-17 20:56:40.194,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_286.txt -o /cal/homes/ruser/git/SANDBOX/RM_286
+2016-11-17 20:56:40.194,Thread_75632292,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_286.txt -o /cal/homes/ruser/git/SANDBOX/RM_286] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:56:40.245,Thread_495601942,Process finished with status: Success and returned: [c133-07/137.194.34.71] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_282.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_282
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_282
+
+2016-11-17 20:56:40.255,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_287.txt -o /cal/homes/ruser/git/SANDBOX/RM_287
+2016-11-17 20:56:40.255,Thread_863026620,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_287.txt -o /cal/homes/ruser/git/SANDBOX/RM_287] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:40.293,Thread_537166757,Process finished with status: Success and returned: [c133-09/137.194.34.73] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_283.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_283
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_283
+
+2016-11-17 20:56:40.316,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_288.txt -o /cal/homes/ruser/git/SANDBOX/RM_288
+2016-11-17 20:56:40.316,Thread_1510696416,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_288.txt -o /cal/homes/ruser/git/SANDBOX/RM_288] on [ruser@c133-08,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:40.377,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_289.txt -o /cal/homes/ruser/git/SANDBOX/RM_289
+2016-11-17 20:56:40.377,Thread_250071329,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_289.txt -o /cal/homes/ruser/git/SANDBOX/RM_289] on [ruser@c133-09,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:40.380,Thread_171407124,Process finished with status: Success and returned: [c133-06/137.194.34.70] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_284.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_284
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_284
+
+2016-11-17 20:56:40.438,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_290.txt -o /cal/homes/ruser/git/SANDBOX/RM_290
+2016-11-17 20:56:40.438,Thread_1062321558,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_290.txt -o /cal/homes/ruser/git/SANDBOX/RM_290] on [ruser@c133-07,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:40.448,Thread_2067900965,Process finished with status: Success and returned: [c130-18/137.194.35.18] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_285.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_285
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_285
+
+2016-11-17 20:56:40.509,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_291.txt -o /cal/homes/ruser/git/SANDBOX/RM_291
+2016-11-17 20:56:40.509,Thread_77572026,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_291.txt -o /cal/homes/ruser/git/SANDBOX/RM_291] on [ruser@c133-06,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:40.511,Thread_75632292,Process finished with status: Success and returned: [c130-33/137.194.35.33] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_286.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_286
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_286
+
+2016-11-17 20:56:40.569,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_292.txt -o /cal/homes/ruser/git/SANDBOX/RM_292
+2016-11-17 20:56:40.570,Thread_1550105630,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_292.txt -o /cal/homes/ruser/git/SANDBOX/RM_292] on [ruser@c130-18,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:56:40.610,Thread_863026620,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_287.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_287
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_287
+
+2016-11-17 20:56:40.640,Thread_1510696416,Process finished with status: Success and returned: [c133-08/137.194.34.72] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_288.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_288
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_288
+
+2016-11-17 20:56:40.640,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_293.txt -o /cal/homes/ruser/git/SANDBOX/RM_293
+2016-11-17 20:56:40.641,Thread_2058297015,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_293.txt -o /cal/homes/ruser/git/SANDBOX/RM_293] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:56:40.688,Thread_250071329,Process finished with status: Success and returned: [c133-09/137.194.34.73] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_289.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_289
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_289
+
+2016-11-17 20:56:40.701,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_294.txt -o /cal/homes/ruser/git/SANDBOX/RM_294
+2016-11-17 20:56:40.702,Thread_1492031843,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_294.txt -o /cal/homes/ruser/git/SANDBOX/RM_294] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:40.758,Thread_1062321558,Process finished with status: Success and returned: [c133-07/137.194.34.71] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_290.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_290
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_290
+
+2016-11-17 20:56:40.762,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_295.txt -o /cal/homes/ruser/git/SANDBOX/RM_295
+2016-11-17 20:56:40.762,Thread_1003716411,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_295.txt -o /cal/homes/ruser/git/SANDBOX/RM_295] on [ruser@c133-09,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:40.822,Thread_77572026,Process finished with status: Success and returned: [c133-06/137.194.34.70] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_291.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_291
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_291
+
+2016-11-17 20:56:40.823,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_296.txt -o /cal/homes/ruser/git/SANDBOX/RM_296
+2016-11-17 20:56:40.823,Thread_1344189847,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_296.txt -o /cal/homes/ruser/git/SANDBOX/RM_296] on [ruser@c133-08,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:40.884,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_297.txt -o /cal/homes/ruser/git/SANDBOX/RM_297
+2016-11-17 20:56:40.884,Thread_684791830,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_297.txt -o /cal/homes/ruser/git/SANDBOX/RM_297] on [ruser@c133-07,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:40.905,Thread_1550105630,Process finished with status: Success and returned: [c130-18/137.194.35.18] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_292.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_292
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_292
+
+2016-11-17 20:56:40.954,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_298.txt -o /cal/homes/ruser/git/SANDBOX/RM_298
+2016-11-17 20:56:40.955,Thread_1410276376,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_298.txt -o /cal/homes/ruser/git/SANDBOX/RM_298] on [ruser@c133-06,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:40.983,Thread_2058297015,Process finished with status: Success and returned: [c130-33/137.194.35.33] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_293.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_293
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_293
+
+2016-11-17 20:56:41.025,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_299.txt -o /cal/homes/ruser/git/SANDBOX/RM_299
+2016-11-17 20:56:41.026,Thread_364213779,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_299.txt -o /cal/homes/ruser/git/SANDBOX/RM_299] on [ruser@c130-18,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:56:41.096,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_300.txt -o /cal/homes/ruser/git/SANDBOX/RM_300
+2016-11-17 20:56:41.097,Thread_1934719493,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_300.txt -o /cal/homes/ruser/git/SANDBOX/RM_300] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:56:41.097,Thread_1492031843,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_294.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_294
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_294
+
+2016-11-17 20:56:41.158,Thread_1344189847,Process finished with status: Success and returned: [c133-08/137.194.34.72] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_296.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_296
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_296
+
+2016-11-17 20:56:41.167,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_301.txt -o /cal/homes/ruser/git/SANDBOX/RM_301
+2016-11-17 20:56:41.168,Thread_1689399623,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_301.txt -o /cal/homes/ruser/git/SANDBOX/RM_301] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:41.224,Thread_684791830,Process finished with status: Success and returned: [c133-07/137.194.34.71] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_297.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_297
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_297
+
+2016-11-17 20:56:41.238,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_302.txt -o /cal/homes/ruser/git/SANDBOX/RM_302
+2016-11-17 20:56:41.239,Thread_1501775944,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_302.txt -o /cal/homes/ruser/git/SANDBOX/RM_302] on [ruser@c133-08,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:41.269,Thread_1410276376,Process finished with status: Success and returned: [c133-06/137.194.34.70] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_298.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_298
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_298
+
+2016-11-17 20:56:41.309,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_303.txt -o /cal/homes/ruser/git/SANDBOX/RM_303
+2016-11-17 20:56:41.309,Thread_2062390661,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_303.txt -o /cal/homes/ruser/git/SANDBOX/RM_303] on [ruser@c133-07,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:41.343,Thread_364213779,Process finished with status: Success and returned: [c130-18/137.194.35.18] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_299.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_299
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_299
+
+2016-11-17 20:56:41.380,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_304.txt -o /cal/homes/ruser/git/SANDBOX/RM_304
+2016-11-17 20:56:41.381,Thread_1793283254,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_304.txt -o /cal/homes/ruser/git/SANDBOX/RM_304] on [ruser@c133-06,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:41.428,Thread_1934719493,Process finished with status: Success and returned: [c130-33/137.194.35.33] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_300.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_300
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_300
+
+2016-11-17 20:56:41.451,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_305.txt -o /cal/homes/ruser/git/SANDBOX/RM_305
+2016-11-17 20:56:41.451,Thread_1600604982,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_305.txt -o /cal/homes/ruser/git/SANDBOX/RM_305] on [ruser@c130-18,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:56:41.490,Thread_1689399623,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_301.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_301
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_301
+
+2016-11-17 20:56:41.522,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_306.txt -o /cal/homes/ruser/git/SANDBOX/RM_306
+2016-11-17 20:56:41.523,Thread_49848285,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_306.txt -o /cal/homes/ruser/git/SANDBOX/RM_306] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:56:41.562,Thread_1501775944,Process finished with status: Success and returned: [c133-08/137.194.34.72] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_302.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_302
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_302
+
+2016-11-17 20:56:41.593,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_307.txt -o /cal/homes/ruser/git/SANDBOX/RM_307
+2016-11-17 20:56:41.594,Thread_325623314,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_307.txt -o /cal/homes/ruser/git/SANDBOX/RM_307] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:41.630,Thread_2062390661,Process finished with status: Success and returned: [c133-07/137.194.34.71] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_303.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_303
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_303
+
+2016-11-17 20:56:41.664,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_308.txt -o /cal/homes/ruser/git/SANDBOX/RM_308
+2016-11-17 20:56:41.664,Thread_1055289996,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_308.txt -o /cal/homes/ruser/git/SANDBOX/RM_308] on [ruser@c133-08,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:41.706,Thread_1793283254,Process finished with status: Success and returned: [c133-06/137.194.34.70] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_304.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_304
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_304
+
+2016-11-17 20:56:41.735,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_309.txt -o /cal/homes/ruser/git/SANDBOX/RM_309
+2016-11-17 20:56:41.735,Thread_1983095387,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_309.txt -o /cal/homes/ruser/git/SANDBOX/RM_309] on [ruser@c133-07,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:41.788,Thread_1600604982,Process finished with status: Success and returned: [c130-18/137.194.35.18] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_305.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_305
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_305
+
+2016-11-17 20:56:41.806,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_310.txt -o /cal/homes/ruser/git/SANDBOX/RM_310
+2016-11-17 20:56:41.806,Thread_1896005303,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_310.txt -o /cal/homes/ruser/git/SANDBOX/RM_310] on [ruser@c133-06,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:41.841,Thread_49848285,Process finished with status: Success and returned: [c130-33/137.194.35.33] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_306.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_306
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_306
+
+2016-11-17 20:56:41.877,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_311.txt -o /cal/homes/ruser/git/SANDBOX/RM_311
+2016-11-17 20:56:41.877,Thread_1856142526,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_311.txt -o /cal/homes/ruser/git/SANDBOX/RM_311] on [ruser@c130-18,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:56:41.923,Thread_325623314,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_307.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_307
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_307
+
+2016-11-17 20:56:41.948,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_312.txt -o /cal/homes/ruser/git/SANDBOX/RM_312
+2016-11-17 20:56:41.948,Thread_748418320,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_312.txt -o /cal/homes/ruser/git/SANDBOX/RM_312] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:56:41.975,Thread_1055289996,Process finished with status: Success and returned: [c133-08/137.194.34.72] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_308.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_308
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_308
+
+2016-11-17 20:56:42.019,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_313.txt -o /cal/homes/ruser/git/SANDBOX/RM_313
+2016-11-17 20:56:42.019,Thread_898989050,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_313.txt -o /cal/homes/ruser/git/SANDBOX/RM_313] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:42.045,Thread_1983095387,Process finished with status: Success and returned: [c133-07/137.194.34.71] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_309.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_309
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_309
+
+2016-11-17 20:56:42.090,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_314.txt -o /cal/homes/ruser/git/SANDBOX/RM_314
+2016-11-17 20:56:42.090,Thread_433633393,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_314.txt -o /cal/homes/ruser/git/SANDBOX/RM_314] on [ruser@c133-08,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:42.132,Thread_1896005303,Process finished with status: Success and returned: [c133-06/137.194.34.70] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_310.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_310
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_310
+
+2016-11-17 20:56:42.161,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_315.txt -o /cal/homes/ruser/git/SANDBOX/RM_315
+2016-11-17 20:56:42.161,Thread_816551338,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_315.txt -o /cal/homes/ruser/git/SANDBOX/RM_315] on [ruser@c133-07,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:42.205,Thread_1856142526,Process finished with status: Success and returned: [c130-18/137.194.35.18] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_311.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_311
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_311
+
+2016-11-17 20:56:42.232,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_316.txt -o /cal/homes/ruser/git/SANDBOX/RM_316
+2016-11-17 20:56:42.232,Thread_1945325830,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_316.txt -o /cal/homes/ruser/git/SANDBOX/RM_316] on [ruser@c133-06,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:42.303,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_317.txt -o /cal/homes/ruser/git/SANDBOX/RM_317
+2016-11-17 20:56:42.303,Thread_1924078838,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_317.txt -o /cal/homes/ruser/git/SANDBOX/RM_317] on [ruser@c130-18,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:56:42.305,Thread_748418320,Process finished with status: Success and returned: [c130-33/137.194.35.33] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_312.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_312
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_312
+
+2016-11-17 20:56:42.344,Thread_898989050,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_313.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_313
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_313
+
+2016-11-17 20:56:42.373,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_318.txt -o /cal/homes/ruser/git/SANDBOX/RM_318
+2016-11-17 20:56:42.374,Thread_1210307784,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_318.txt -o /cal/homes/ruser/git/SANDBOX/RM_318] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:56:42.426,Thread_433633393,Process finished with status: Success and returned: [c133-08/137.194.34.72] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_314.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_314
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_314
+
+2016-11-17 20:56:42.444,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_319.txt -o /cal/homes/ruser/git/SANDBOX/RM_319
+2016-11-17 20:56:42.445,Thread_1889392640,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_319.txt -o /cal/homes/ruser/git/SANDBOX/RM_319] on [ruser@c130-25,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:42.515,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_320.txt -o /cal/homes/ruser/git/SANDBOX/RM_320
+2016-11-17 20:56:42.516,Thread_1717079744,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_320.txt -o /cal/homes/ruser/git/SANDBOX/RM_320] on [ruser@c133-08,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:42.596,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_321.txt -o /cal/homes/ruser/git/SANDBOX/RM_321
+2016-11-17 20:56:42.597,Thread_1269579719,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_321.txt -o /cal/homes/ruser/git/SANDBOX/RM_321] on [ruser@c133-05,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:42.666,Thread_1945325830,Process finished with status: Success and returned: [c133-06/137.194.34.70] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_316.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_316
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_316
+
+2016-11-17 20:56:42.667,Thread_1924078838,Process finished with status: Success and returned: [c130-18/137.194.35.18] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_317.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_317
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_317
+
+2016-11-17 20:56:42.671,Thread_816551338,Process finished with status: Success and returned: [c133-07/137.194.34.71] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_315.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_315
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_315
+
+2016-11-17 20:56:42.687,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_322.txt -o /cal/homes/ruser/git/SANDBOX/RM_322
+2016-11-17 20:56:42.688,Thread_233393955,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_322.txt -o /cal/homes/ruser/git/SANDBOX/RM_322] on [ruser@c133-04,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:42.758,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_323.txt -o /cal/homes/ruser/git/SANDBOX/RM_323
+2016-11-17 20:56:42.759,Thread_1302847567,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_323.txt -o /cal/homes/ruser/git/SANDBOX/RM_323] on [ruser@c130-18,/cal/homes/ruser/git/SANDBOX/SLAVE3]
+2016-11-17 20:56:42.839,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_324.txt -o /cal/homes/ruser/git/SANDBOX/RM_324
+2016-11-17 20:56:42.840,Thread_538772694,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_324.txt -o /cal/homes/ruser/git/SANDBOX/RM_324] on [ruser@c133-07,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:42.900,Thread_1210307784,Process finished with status: Success and returned: [c130-33/137.194.35.33] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_318.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_318
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_318
+
+2016-11-17 20:56:42.907,Thread_1269579719,Process finished with status: Success and returned: [c133-05/137.194.34.69] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_321.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_321
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_321
+
+2016-11-17 20:56:42.930,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_325.txt -o /cal/homes/ruser/git/SANDBOX/RM_325
+2016-11-17 20:56:42.931,Thread_1032284510,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_325.txt -o /cal/homes/ruser/git/SANDBOX/RM_325] on [ruser@c133-06,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:43.011,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_326.txt -o /cal/homes/ruser/git/SANDBOX/RM_326
+2016-11-17 20:56:43.012,Thread_386229603,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_326.txt -o /cal/homes/ruser/git/SANDBOX/RM_326] on [ruser@c130-33,/cal/homes/ruser/git/SANDBOX/SLAVE2]
+2016-11-17 20:56:43.088,Thread_233393955,Process finished with status: Success and returned: [c133-04/137.194.34.68] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_322.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_322
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_322
+
+2016-11-17 20:56:43.102,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_327.txt -o /cal/homes/ruser/git/SANDBOX/RM_327
+2016-11-17 20:56:43.103,Thread_1490424958,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_327.txt -o /cal/homes/ruser/git/SANDBOX/RM_327] on [ruser@c133-05,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:43.145,Thread_538772694,Process finished with status: Success and returned: [c133-07/137.194.34.71] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_324.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_324
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_324
+
+2016-11-17 20:56:43.184,Master,Starting Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_328.txt -o /cal/homes/ruser/git/SANDBOX/RM_328
+2016-11-17 20:56:43.184,Thread_791758848,Creating slave [Slave.jar -r /cal/homes/ruser/git/SANDBOX/SM_328.txt -o /cal/homes/ruser/git/SANDBOX/RM_328] on [ruser@c133-04,/cal/homes/ruser/git/SANDBOX/SLAVE1]
+2016-11-17 20:56:43.249,Thread_1032284510,Process finished with status: Success and returned: [c133-06/137.194.34.70] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_325.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_325
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_325
+
+2016-11-17 20:56:43.325,Thread_386229603,Process finished with status: Success and returned: [c130-33/137.194.35.33] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_326.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_326
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_326
+
+2016-11-17 20:56:43.431,Thread_1490424958,Process finished with status: Success and returned: [c133-05/137.194.34.69] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_327.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_327
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_327
+
+2016-11-17 20:56:43.495,Thread_791758848,Process finished with status: Success and returned: [c133-04/137.194.34.68] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_328.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_328
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_328
+
+2016-11-17 20:56:44.805,Thread_1889392640,Process finished with status: Success and returned: [c130-25/137.194.35.25] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_319.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_319
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_319
+
+2016-11-17 20:56:44.879,Thread_1717079744,Process finished with status: Success and returned: [c133-08/137.194.34.72] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_320.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_320
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_320
+
+2016-11-17 20:56:45.185,Thread_1302847567,Process finished with status: Success and returned: [c130-18/137.194.35.18] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_323.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_323
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_323
+
+2016-11-17 20:56:47.151,Thread_1003716411,Process finished with status: Success and returned: [c133-09/137.194.34.73] Slave reducing keys from SMx file /cal/homes/ruser/git/SANDBOX/SM_295.txt...Generating /cal/homes/ruser/git/SANDBOX/RM_295
+... job finished. Output RMx file /cal/homes/ruser/git/SANDBOX/RM_295
+
+2016-11-17 20:56:47.164,Master,------ Remote reducing done------ 
+2016-11-17 20:56:47.164,Master,------ Starting final merge ------ 
+2016-11-17 20:57:20.410,Master,Saving results in /cal/homes/ruser/git/SANDBOX/sante_publique.txt.count.txt
+2016-11-17 20:57:20.410,Master,TOP words:
+2016-11-17 20:57:20.411,Master,#0   article	46850
+2016-11-17 20:57:20.411,Master,#1   santé	20201
+2016-11-17 20:57:20.411,Master,#2   agence	8796
+2016-11-17 20:57:20.411,Master,#3   être	8760
+2016-11-17 20:57:20.411,Master,#4   peut	8610
+2016-11-17 20:57:20.411,Master,#5   directeur	8608
+2016-11-17 20:57:20.411,Master,#6   établissement	8284
+2016-11-17 20:57:20.411,Master,#7   conditions	8096
+2016-11-17 20:57:20.411,Master,#8   cas	8040
+2016-11-17 20:57:20.411,Master,#9   conseil	7580
+2016-11-17 20:57:20.411,Master,#10   général	6912
+2016-11-17 20:57:20.411,Master,#11   autorisation	6692
+2016-11-17 20:57:20.412,Master,#12   dispositions	5920
+2016-11-17 20:57:20.412,Master,#13   etat	5458
+2016-11-17 20:57:20.412,Master,#14   sécurité	5282
+2016-11-17 20:57:20.412,Master,#15   titre	5150
+2016-11-17 20:57:20.412,Master,#16   produits	5138
+2016-11-17 20:57:20.412,Master,#17   demande	5102
+2016-11-17 20:57:20.412,Master,#18   application	5048
+2016-11-17 20:57:20.412,Master,#19   sous	5014
+2016-11-17 20:57:20.412,Master,#20   ainsi	4970
+2016-11-17 20:57:20.412,Master,#21   section	4734
+2016-11-17 20:57:20.412,Master,#22   prévues	4716
+2016-11-17 20:57:20.412,Master,#23   code	4527
+2016-11-17 20:57:20.412,Master,#24   membres	4400
+2016-11-17 20:57:20.412,Master,#25   soins	4386
+2016-11-17 20:57:20.412,Master,#26   établissements	4356
+2016-11-17 20:57:20.412,Master,#27   articles	4316
+2016-11-17 20:57:20.412,Master,#28   personnes	4194
+2016-11-17 20:57:20.412,Master,#29   médicament	4180
+2016-11-17 20:57:20.412,Master,#30   avis	4030
+2016-11-17 20:57:20.412,Master,#31   alinéa	4018
+2016-11-17 20:57:20.412,Master,#32   mentionnés	3966
+2016-11-17 20:57:20.412,Master,#33   peuvent	3960
+2016-11-17 20:57:20.412,Master,#34   délai	3958
+2016-11-17 20:57:20.412,Master,#35   après	3890
+2016-11-17 20:57:20.412,Master,#36   chargé	3888
+2016-11-17 20:57:20.412,Master,#37   lorsque	3864
+2016-11-17 20:57:20.412,Master,#38   présent	3790
+2016-11-17 20:57:20.412,Master,#39   nationale	3758
+2016-11-17 20:57:20.412,Master,#40   mise	3686
+2016-11-17 20:57:20.412,Master,#41   personne	3668
+2016-11-17 20:57:20.412,Master,#42   ministre	3660
+2016-11-17 20:57:20.412,Master,#43   régionale	3622
+2016-11-17 20:57:20.412,Master,#44   dont	3574
+2016-11-17 20:57:20.412,Master,#45   commission	3570
+2016-11-17 20:57:20.412,Master,#46   médicale	3552
+2016-11-17 20:57:20.412,Master,#47   si	3446
+2016-11-17 20:57:20.412,Master,#48   modalités	3410
+2016-11-17 20:57:20.412,Master,#49   arrêté	3402
+2016-11-17 20:57:20.422,Master,------ Final merge done ------
+2016-11-17 20:57:20.422,Master,------ Performances ------
+2016-11-17 20:57:20.422,Master,Split time: 749 ms
+2016-11-17 20:57:20.423,Master,Map time: 81077 ms
+2016-11-17 20:57:20.423,Master,Reduce time: 27325 ms
+2016-11-17 20:57:20.423,Master,Merge time: 33258 ms
+
+
+
+
