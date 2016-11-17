@@ -130,6 +130,12 @@ When process is achieved, an execution summary is disaplyed, including performan
 
 #### Logs
 
+
+2016-11-17 18:23:16.004,Master,Starting Slave.jar -m /cal/homes/rpicon/git/SANDBOX/SPLIT_128.txt -o /cal/homes/rpicon/git/SANDBOX/UM_128
+2016-11-17 18:23:16.004,Thread_262351018,Creating slave [Slave.jar -m /cal/homes/rpicon/git/SANDBOX/SPLIT_128.txt -o /cal/homes/rpicon/git/SANDBOX/UM_128] on [rpicon@c130-26,/cal/homes/rpicon/git/SANDBOX/SLAVE2]
+2016-11-17 18:23:16.048,Thread_1228679063,Process finished with status: Success and returned: [c133-11/137.194.34.75] Slave counting key from Sx file /cal/homes/rpicon/git/SANDBOX/SPLIT_109.txt...Generating /cal/homes/rpicon/git/SANDBOX/UM_109
+... job finished. Output UMx file /cal/homes/rpicon/git/SANDBOX/UM_109
+
 2016-11-17 19:31:08.687,Master,Starting Slave.jar -m /cal/homes/rpicon/git/SANDBOX/SPLIT_1.txt -o /cal/homes/rpicon/git/SANDBOX/UM_1
 2016-11-17 19:31:08.687,Thread_2093326742,Creating slave [Slave.jar -m /cal/homes/rpicon/git/SANDBOX/SPLIT_1.txt -o /cal/homes/rpicon/git/SANDBOX/UM_1] on []
 2016-11-17 19:31:08.708,Master,Starting Slave.jar -m /cal/homes/rpicon/git/SANDBOX/SPLIT_2.txt -o /cal/homes/rpicon/git/SANDBOX/UM_2
