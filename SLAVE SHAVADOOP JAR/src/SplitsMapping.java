@@ -53,7 +53,7 @@ public class SplitsMapping {
 				for(String word : parts) {
 					if (word.length() > 0) {
 						// Remove special character (most of them)
-						String wordClean  = word.replaceAll("[,.():;?!«»]", "");
+						String wordClean  = word.replaceAll("[,.():;?!«»*]", "");
 						wordClean = wordClean.replace("\"", "");
 						// We can use space as a delimiter as it has been removed from the string.
 						wordClean = wordClean.toLowerCase();
