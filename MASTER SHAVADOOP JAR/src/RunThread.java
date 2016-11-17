@@ -35,8 +35,8 @@ public class RunThread extends Thread {
         launchProcess();
     }
 
-	/*
-	 * Execute Slave.jar with parameters defined in Job on Slave machine.
+	/**
+	 *  Create the ProcessBuilder by parsing currentSlave.getAddress to know the machine address.
 	 */
 	private  void launchProcess() {
 		try {
@@ -47,17 +47,15 @@ public class RunThread extends Thread {
 			 */
 			
 			String[] sshInCommand = currentSlave.getAddress().split(",");
-			// Either ruser@c129-21 + /cal/homes/ruser/git/SANDBOX/SLAVE2
-			// or just /cal/homes/ruser/git/SANDBOX/SLAVE2
 			ProcessBuilder pb;
 
-			if(sshInCommand.length == 2) 
+			if(sshInCommand.length == 2) // Either ruser@c129-21 + /cal/homes/ruser/git/SANDBOX/SLAVE2
 			{
 				// ssh ruser@c129-21
 				String[] command = { "/bin/bash", "-c", "ssh " + sshInCommand[0] + " java -Dfile.encoding=UTF-8 -jar " + sshInCommand[1] + "/" + exeFile};
 				pb = new ProcessBuilder(command);
 			}
-			else
+			else // or just /cal/homes/ruser/git/SANDBOX/SLAVE2
 			{
 				// local
 				String[] command = { "/bin/bash", "-c"," java -Dfile.encoding=UTF-8 -jar " + sshInCommand[0] + "/" + exeFile};

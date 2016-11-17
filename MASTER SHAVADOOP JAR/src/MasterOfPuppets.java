@@ -168,7 +168,7 @@ public class MasterOfPuppets {
 
 		// Create output file (input.txt.count.txt)
 		logger.Log("Saving results in " + inputFile + ".count.txt");
-		logger.Log("TOP#15 words:");
+		logger.Log("TOP words:");
 		int displayLimit = 0;
 		PrintWriter writer = new PrintWriter(inputFile + ".count.txt");
 		for (String key : dictionarySorted.keySet()) {
@@ -176,7 +176,7 @@ public class MasterOfPuppets {
 			writer.println(line);
 			if(displayLimit < 50)
 			{
-				logger.Log("#" + displayLimit + "   " + (line+1));
+				logger.Log("#" + displayLimit + "   " + line);
 				displayLimit++;
 			}
 		}
@@ -357,6 +357,8 @@ public class MasterOfPuppets {
 		fileReader.close();
 
 		UMFileNb = destIx;
+		if(destIx < numberOfReducer)
+			numberOfReducer = destIx;
 	}
 
 	/**
@@ -419,7 +421,7 @@ public class MasterOfPuppets {
 	 * @throws ClassNotFoundException 
 	 */
 	public static void main(String[] args) throws IOException, InterruptedException, ClassNotFoundException {
-
+		
 
 		// Will be redirected to stdout
 		logger = new ShavaLog("Master");
@@ -448,12 +450,17 @@ public class MasterOfPuppets {
 		readStopWordsFile(stopWordsFile);
 
 		logger.Log("------ Splitting files ------ ");
+		long startTime = System.currentTimeMillis();
 		splitInputFile2(inputFile, numberOfLinePerFile);
+		long totalSplit = System.currentTimeMillis() - startTime;
+
 		// We have many SPLIT_x.txt files
 
 
+		
 		// Run MAP: SPLIT_x.txt -> UM_x.bin
 		logger.Log("------ Starting map process ------ ");
+		startTime = System.currentTimeMillis();
 		int launchStatus = 1;
 		do{
 			// All job must FINISHED to release this loop.
@@ -461,25 +468,39 @@ public class MasterOfPuppets {
 			Thread.sleep(10);
 		} while(launchStatus == 1);
 		logger.Log("------ Map process done------ ");
+		long totalMap = System.currentTimeMillis() - startTime;
+
 
 
 		// SHUFFLE
 		logger.Log("------ Shuffling ------ ");
+		startTime = System.currentTimeMillis();
 		UMxtoSMx();
 		logger.Log("------ Shuffling done ------ ");
+		long totalShuffle = System.currentTimeMillis() - startTime;
 
 
 		logger.Log("------ Starting remote reducing ------ ");
+		startTime = System.currentTimeMillis();
 		do{
 			launchStatus = launchJobs(reduceJobList);
 			Thread.sleep(10);
 		} while(launchStatus == 1);
 		logger.Log("------ Remote reducing done------ ");
+		long totalReduce = System.currentTimeMillis() - startTime;
 
 
 		logger.Log("------ Starting final merge ------ ");
+		startTime = System.currentTimeMillis();
 		mergeSMx();
 		logger.Log("------ Final merge done ------");
+		long totalMerge = System.currentTimeMillis() - startTime;
+		
+		logger.Log("------ Performances ------");
+		logger.Log("Split time: " + totalSplit + " ms");
+		logger.Log("Map time: " + totalMap + " ms");
+		logger.Log("Reduce time: " + totalReduce + " ms");
+		logger.Log("Merge time: " + totalMerge + " ms");
 	}
 
 	/**
