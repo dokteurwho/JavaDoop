@@ -135,18 +135,20 @@ When process is achieved, an execution summary is disaplyed, including performan
 2016-11-17 19:31:08.708,Master,Starting Slave.jar -m /cal/homes/rpicon/git/SANDBOX/SPLIT_2.txt -o /cal/homes/rpicon/git/SANDBOX/UM_2
 2016-11-17 19:31:08.708,Thread_203065615,Creating slave [Slave.jar -m /cal/homes/rpicon/git/SANDBOX/SPLIT_2.txt -o /cal/homes/rpicon/git/SANDBOX/UM_2] on [/cal/homes/rpicon/git/SANDBOX/SLAVE4]
 2016-11-17 19:31:09.193,Thread_2093326742,Process finished with status: Failed and returned: Error: Unable to access jarfile /Slave.jar
-
+```
 2016-11-17 19:31:09.204,Master,Starting Slave.jar -m /cal/homes/rpicon/git/SANDBOX/SPLIT_1.txt -o /cal/homes/rpicon/git/SANDBOX/UM_1
 2016-11-17 19:31:09.205,Thread_1814691888,Creating slave [Slave.jar -m /cal/homes/rpicon/git/SANDBOX/SPLIT_1.txt -o /cal/homes/rpicon/git/SANDBOX/UM_1] on [/cal/homes/rpicon/git/SANDBOX/SLAVE3]
 2016-11-17 19:31:09.210,Thread_203065615,Process finished with status: Failed and returned: Error: Unable to access jarfile /cal/homes/rpicon/git/SANDBOX/SLAVE4/Slave.jar
+```
 
+
+```
 2016-11-17 19:31:09.225,Master,Starting Slave.jar -m /cal/homes/rpicon/git/SANDBOX/SPLIT_2.txt -o /cal/homes/rpicon/git/SANDBOX/UM_2
 2016-11-17 19:31:09.226,Thread_233788733,Creating slave [Slave.jar -m /cal/homes/rpicon/git/SANDBOX/SPLIT_2.txt -o /cal/homes/rpicon/git/SANDBOX/UM_2] on [/cal/homes/rpicon/git/SANDBOX/SLAVE2]
 2016-11-17 19:31:13.331,Thread_1814691888,Process finished with status: Success and returned: [c133-11/137.194.34.75] Slave counting key from Sx file /cal/homes/rpicon/git/SANDBOX/SPLIT_1.txt...Generating /cal/homes/rpicon/git/SANDBOX/UM_1
 ... job finished. Output UMx file /cal/homes/rpicon/git/SANDBOX/UM_1
+```
 
-2016-11-17 19:31:13.335,Thread_233788733,Process finished with status: Success and returned: [c133-11/137.194.34.75] Slave counting key from Sx file /cal/homes/rpicon/git/SANDBOX/SPLIT_2.txt...Generating /cal/homes/rpicon/git/SANDBOX/UM_2
-... job finished. Output UMx file /cal/homes/rpicon/git/SANDBOX/UM_2
 
 ## Slave
 
