@@ -1,8 +1,89 @@
+## Master
+
+Master is a flexible and versatile scheduler to 
+
+```
+Usage: 
+Master.jar [options] 
+Mandatory:
+-inputfile -i <file>		input file, txt format.
+-workingdir -w <directory>	working directory where all file will be generated 
+-slavelist -l <file> 		slave list 
+Options:
+-stopwordsfile -s <file>	file containing stop words, example here: http://snowball.tartarus.org/algorithms/french/stop.txt 
+-nbreducers -r  integer 	number of reducers, 5 by default
+-nblines -n integer  		number of line per splitted file, 1000 by default
+```
+
+### Input File
+A text file that will be processed to count in a distributed configuration the number of words. It is recommended to put a large file but a very small file like this one will work too:
+
+```
+Deer Beer River
+Car Car River
+Deer Car Beer
+```
+
+### Working Directory
+The place where all intermediate and final files will be stored.
+
+### Slave list
+This file will map where are the slaves on the network. A line defines a slave. The same line can be repeated many time if you want use many time the same slave.
+You can use local slaves (on the same machine than the master) or remote slaves. In this case use login@machine, before the path of the slave. Look this example: 
+```
+user@c130-35,/cal/homes/user/git/SANDBOX/SLAVE1
+user@c130-33,/cal/homes/user/git/SANDBOX/SLAVE1
+user@c130-33,/cal/homes/user/git/SANDBOX/SLAVE1
+user@c130-33,/cal/homes/user/git/SANDBOX/SLAVE1
+<...>
+user@c130-26,/cal/homes/user/git/SANDBOX/SLAVE3
+user@c130-25,/cal/homes/user/git/SANDBOX/SLAVE3
+/cal/homes/user/git/SANDBOX/SLAVE1
+/cal/homes/user/git/SANDBOX/SLAVE2
+/cal/homes/user/git/SANDBOX/SLAVE3
+/cal/homes/user/git/SANDBOX/SLAVE3
+```
+
+* In _user@c130-33,/cal/homes/user/git/SANDBOX/SLAVE1_ MASTER expects to find a slave in __/cal/homes/user/git/SANDBOX/SLAVE1/Slave.jar__ on remote machine  __user@c130-33__.
+
+* Note _user@c130-33,/cal/homes/user/git/SANDBOX/SLAVE1_ is used twice. This means this slave will be more requested to take job.
+
+* _/cal/homes/user/git/SANDBOX/SLAVE3_ means the slave is on the same machine than the master.
+
+### Generated file
+The output file will be:  __inputfile.txt.count.txt__. It will look like this example, where most frequent word is first.
+
+```
+était	1393
+où	760
+swann	702
+même	690
+être	599
+bien	517
+odette	453
+là	351
+dit	337
+mme	312
+été	302
+peut	289
+grand	287
+fois	286
+<...>
+```
+
+### Stop words file
+If you want to remove some words from the reducing use this file as a black-list. These word will be removed. This allow ShavaDoop to be localisation independant.
+
+Go here http://snowball.tartarus.org/algorithms/french/stemmer.html and  http://snowball.tartarus.org/algorithms/french/stop.txt to find some example you can improve.
+
+### Number of reducers
+At the last step the master will shuffle (word, count) couples to slaves. Number of reducer defines the cardinality of the shuffle. For this reason it is r 
+
 ## Slave
 
-Slave.jar works in two modes, "mapping" or "reducing".
+Slave.jar works in two modes, "mapping" or "reducing". The mode is defined by the argument passed to the executable.
 
-### Mapping -m from SPLITx to UMx.
+### 1. Mapping -m from SPLITx to UMx.
 
 Mapping operation will generate from a (short) text file an output file with the count of each word of the input file.
 
@@ -48,7 +129,7 @@ choquait 1
 <...>
 ```
 
-### Reducing -r from SMx to RMx
+### 2. Reducing -r from SMx to RMx
 
 Mapping operation will generate from an input file containing couple of (word, count) an output file aggregating the same words together:
 
@@ -90,3 +171,17 @@ une 11
 venais 1
 <...>
 ```
+### 3. STDOUT
+
+Output is very simple. Here are some examples:
+* Mapping
+```
+[c133-11/137.194.34.75] Slave counting key from Sx file /cal/homes/user/git/SANDBOX/SPLIT_3.txt...Generating /cal/homes/user/git/SANDBOX/UM_3
+... job finished. Output UMx file /cal/homes/user/git/SANDBOX/UM_3
+```
+* Reducing
+```
+[c130-25/137.194.35.25] Slave reducing keys from SMx file /cal/homes/user/git/SANDBOX/SM_4.txt...Generating /cal/homes/user/git/SANDBOX/RM_4
+... job finished. Output RMx file /cal/homes/user/git/SANDBOX/RM_4
+```
+
