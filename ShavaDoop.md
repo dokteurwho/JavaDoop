@@ -42,10 +42,12 @@ Deer Car Beer
 
 ### Working Directory
 The place where all intermediate and final files will be stored.
+This can be use for fail-over in a future version.
+The assumption is a distributed FS like HDFS.
 
 ### Slave list
 This file will map where are the slaves on the network. A line defines a slave. The same line can be repeated many time if you want use many time the same slave.
-You can use local slaves (on the same machine than the master) or remote slaves. In this case use login@machine, before the path of the slave. Look this example: 
+You can use local slaves (on the same machine than the master) or remote slaves. In this case use login@machine, (with comma) before the path of the slave. Look this example: 
 ```
 user@c130-35,/cal/homes/user/git/SANDBOX/SLAVE1
 user@c130-33,/cal/homes/user/git/SANDBOX/SLAVE1
