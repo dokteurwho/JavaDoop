@@ -1,6 +1,22 @@
+#ShavaDoop
+
+##Introduction
+
+__ShavaDoop__ is a versatile framework to powerfully count words in a file with many distributed computers in a slower manner than with only one computer.
+
+The delivery consists in two JAR files:
+
+1. Master.JAR
+
+2. Slave.JAR
+
+Master will orchestrate many Slave instances to map then reduce every word of the file as presented below.
+
+![Alt text](https://github.com/dokteurwho/JavaDoop/blob/master/ShavaDoop.png)
+
 ## Master
 
-Master is a flexible and versatile scheduler to 
+There is one master instance in the architecture. Master will split initial file beyond slaves and then shuffle the mapped results beyond these slaves.
 
 ```
 Usage: 
