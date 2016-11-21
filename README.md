@@ -20,4 +20,6 @@ Master will orchestrate many Slave instances to map then reduce every word of th
 
 * Download stop words here: http://snowball.tartarus.org/algorithms/french/stop.txt. The file can be directly use and improved / adapted if needed.
 
+![Alt text](https://github.com/dokteurwho/JavaDoop/blob/master/ShavaDoop.png)
+
 Enjoy.
