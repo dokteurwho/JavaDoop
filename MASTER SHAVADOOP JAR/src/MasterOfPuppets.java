@@ -24,11 +24,11 @@ import java.util.TreeMap;
  * 
  * Apply the following transformations:
  * 
- * Input File -> SPLIT_X.txt
- * Call Slave.jar SPLIT_X.txt -> UM_Y.txt
- * UM_Y.txt -> SM_Z.txt
- * Call Slave.jar SM_Z.txt -> RM_S.txt
- * All RM_S.txt -> Output Fie
+ * Input File to SPLIT_X.txt
+ * Call Slave.jar SPLIT_X.txt to UM_Y.txt
+ * UM_Y.txt to SM_Z.txt
+ * Call Slave.jar SM_Z.txt to RM_S.txt
+ * All RM_S.txt to Output Fie
  * 
  * @author rom
  *
@@ -78,9 +78,11 @@ public class MasterOfPuppets {
 	 * Read UM_X.bin to generate a TreeMap.
 	 * Where UM_X.bin has been geneated by Slave.
 	 * 
-	 * @param fileName
-	 * @throws ClassNotFoundException
+	 * @param fileName		UM_X.bin file path to generate a TreeMap
+	 * @return				TreeMap object.
+	 * @throws ClassNotFoundException 
 	 * @throws IOException
+	 * 
 	 */
 	public static TreeMap<String, Integer> readUnsortedMap(String fileName) throws ClassNotFoundException, IOException {
 		File file = new File(fileName);
@@ -96,8 +98,8 @@ public class MasterOfPuppets {
 	 * 
 	 * From "TreeMap sort by value topic" in http://stackoverflow.com/
 	 * 
-	 * @param map
-	 * @return
+	 * @param map		A map object.
+	 * @return			Sorted by Values map object.
 	 */
 	public static <K, V extends Comparable<V>> Map<K, V> sortByValues(final Map<K, V> map) {
 	    Comparator<K> valueComparator =  new Comparator<K>() {
@@ -127,7 +129,7 @@ public class MasterOfPuppets {
 	 */
 	private static void mergeSMx() throws NumberFormatException, IOException 
 	{		
-		// Create a dictionary word -> count
+		// Create a dictionary word to count
 		Map<String, Integer> dictionary = new TreeMap<String, Integer>();
 
 		// Go through each RM file.
@@ -162,7 +164,7 @@ public class MasterOfPuppets {
 			fileReader.close();
 		}
 		
-		// Create a dictionary word -> count
+		// Create a dictionary word to count
 		Map<String, Integer> dictionarySorted = new TreeMap<String, Integer>();
 		dictionarySorted = sortByValues(dictionary);
 
@@ -381,9 +383,13 @@ public class MasterOfPuppets {
 
 	/**
 	 * 
-	 * Read a ";" separated file.
+	 * Read a "Salve List" file. Example:
 	 * 
-	 * @param csvFile
+	 * "user@c130-25,/cal/homes/user/git/SANDBOX/SLAVE3
+	 * /cal/homes/user/git/SANDBOX/SLAVE1"
+	 * 
+	 * @param csvFile	A file containing Slaves addresses. 1 line per Slave.
+	 * 
 	 */
 	public static void readCSVFile(String csvFile) {
 
@@ -415,7 +421,7 @@ public class MasterOfPuppets {
 	 * -i /cal/homes/rpicon/git/SANDBOX/LesMiserables.txt  
 	 * -s /cal/homes/rpicon/git/SANDBOX/stop.txt
 	 * 
-	 * @param args
+	 * @param args			Command line. See documentation for more details.
 	 * @throws IOException 
 	 * @throws InterruptedException 
 	 * @throws ClassNotFoundException 
@@ -458,7 +464,7 @@ public class MasterOfPuppets {
 
 
 		
-		// Run MAP: SPLIT_x.txt -> UM_x.bin
+		// Run MAP: SPLIT_x.txt to UM_x.bin
 		logger.Log("------ Starting map process ------ ");
 		startTime = System.currentTimeMillis();
 		int launchStatus = 1;
